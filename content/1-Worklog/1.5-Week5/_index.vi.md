@@ -1,59 +1,186 @@
----
+﻿---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-05-18
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 5:
+### Objective of Worklog:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu tổng quan về Amazon EC2 trên AWS
+* Học cách triển khai và quản lý EC2 Instance
+* Thực hành cấu hình Security Group, Key Pair và SSH
+* Làm quen với workflow quản trị Linux Server trên cloud
+* Tìm hiểu monitoring và quản lý tài nguyên EC2
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Tìm hiểu tổng quan Amazon EC2<br> - Học EC2 Instance Types<br> - Tìm hiểu AMI và EBS | 18/05/2026 | 18/05/2026 |  |
+| 3 | - Tạo Linux EC2 Instance<br> - Cấu hình Key Pair<br> - Tìm hiểu Pricing EC2 | 19/05/2026 | 19/05/2026 |  |
+| 4 | - Cấu hình Security Group<br> - Mở SSH Port 22<br> - Quản lý Inbound & Outbound Rules | 20/05/2026 | 20/05/2026 |  |
+| 5 | - Kết nối SSH tới EC2 Linux<br> - Kiểm tra môi trường Linux Server<br> - Thực hành command cơ bản | 21/05/2026 | 21/05/2026 |  |
+| 6 | - Monitoring EC2 bằng CloudWatch<br> - Kiểm tra CPU, Network, Status Check<br> - Quản lý trạng thái Instance | 22/05/2026 | 22/05/2026 |  |
 
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Kiến thức đạt được
+* Amazon EC2 architecture
+* Linux Server deployment workflow
+* SSH remote access
+* Security Group management
+* CloudWatch monitoring cơ bản
+* Quản lý tài nguyên compute trên AWS
+* Khó khăn
+* Lỗi SSH Permission denied
+* Cấu hình Security Group chưa chính xác
+* Quản lý quyền file .pem
+* Troubleshoot kết nối EC2
+* Hướng cải thiện
+* Học Elastic IP
+* Deploy Web Application lên EC2
+* Học Docker trên Linux Server
+* Tìm hiểu Auto Scaling và Load Balancer
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Ảnh chụp và Minh chứng:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+#### EC2 Instances
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+![EC2 Instance Linux](/images/1-Worklog/1.5-Week5/Lab04/EC2-Instance-Linux.PNG)
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+![EC2 Instance Window](/images/1-Worklog/1.5-Week5/Lab04/EC2-Instance-Window.PNG)
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+![Linux Remote EC2](/images/1-Worklog/1.5-Week5/Lab04/Linux-Remote-EC2.PNG)
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+![Window Remote EC2](/images/1-Worklog/1.5-Week5/Lab04/Window-Remote-EC2.PNG)
+
+![Window Remote EC2 2](/images/1-Worklog/1.5-Week5/Lab04/Window-Remote-EC2-2.PNG)
+
+#### VPC & Subnets
+
+![Linux VPC](/images/1-Worklog/1.5-Week5/Lab04/Linux-VPC.PNG)
+
+![Window VPC](/images/1-Worklog/1.5-Week5/Lab04/Window-VPC.PNG)
+
+![Subnet](/images/1-Worklog/1.5-Week5/Lab04/Subnet.PNG)
+
+![Subnet Window](/images/1-Worklog/1.5-Week5/Lab04/Subnet-Window.PNG)
+
+#### Security Groups
+
+![Security Group All](/images/1-Worklog/1.5-Week5/Lab04/Security-Group-All.PNG)
+
+![Security Group Linux](/images/1-Worklog/1.5-Week5/Lab04/Security-Group-Linux.PNG)
+
+![Security Group Window](/images/1-Worklog/1.5-Week5/Lab04/Security-Group-Window.PNG)
+
+![Linux Allow Rule](/images/1-Worklog/1.5-Week5/Lab04/Linux-Allow-Rule.PNG)
+
+#### MariaDB Setup
+
+![MariaDB PW Reset](/images/1-Worklog/1.5-Week5/Lab04/MariaDB-PWreset.PNG)
+
+![PHP DB Create](/images/1-Worklog/1.5-Week5/Lab04/PHP-DBcreate.PNG)
+
+![ADD DB](/images/1-Worklog/1.5-Week5/Lab04/ADD-DB.PNG)
+
+![DB Success Add](/images/1-Worklog/1.5-Week5/Lab04/DB-SuccessAdd.PNG)
+
+#### Database Connectivity
+
+![ConnectDB OnLinux](/images/1-Worklog/1.5-Week5/Lab04/ConnectDB-OnLinux.PNG)
+
+![ConnectDB OnLinux After](/images/1-Worklog/1.5-Week5/Lab04/ConnectDB-OnLinux-After.PNG)
+
+![FE ADD DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-ADD-DB-Linux.PNG)
+
+![FE DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-DB-Linux.PNG)
+
+#### PHP MyAdmin
+
+![PHP MyAdmin After](/images/1-Worklog/1.5-Week5/Lab04/PHP-MyAdmin-After.PNG)
+
+![PHP Test Web](/images/1-Worklog/1.5-Week5/Lab04/PHP-TestWeb.PNG)
+
+![FE HomePage DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-HomePage-DB-Linux.PNG)
+
+![FE EDIT DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-EDIT-DB-Linux.PNG)
+
+![FE SearchUser DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-SearchUser-DB-Linux.PNG)
+
+![Delete PHP File](/images/1-Worklog/1.5-Week5/Lab04/Delete-PHPFile.PNG)
+
+#### Node.js Setup
+
+![NPM INIT](/images/1-Worklog/1.5-Week5/Lab04/NPM-INIT.PNG)
+
+![npm local setup](/images/1-Worklog/1.5-Week5/Lab04/npm-local-settup.PNG)
+
+![Nodejs Setting On Linux](/images/1-Worklog/1.5-Week5/Lab04/Nodejs-Setting-On-Linux.PNG)
+
+![WindowInstance NodeJS Setup](/images/1-Worklog/1.5-Week5/Lab04/WindowInstance-NodeJS-Settup.PNG)
+
+![WindowInstance NodeJS Setup Checkout](/images/1-Worklog/1.5-Week5/Lab04/WindowInstance-NodeJS-Settup-Checkout.PNG)
+
+#### XAMPP Setup (Windows)
+
+![XAMMP SETUP Window](/images/1-Worklog/1.5-Week5/Lab04/XAMMP-SETTUP-Window.PNG)
+
+#### Custom AMI & Snapshots
+
+![Custom AMI](/images/1-Worklog/1.5-Week5/Lab04/Custom-AMI.PNG)
+
+![Instance from Custom AMI](/images/1-Worklog/1.5-Week5/Lab04/Instance-from-Custom-AMI.PNG)
+
+![Window Snapshot](/images/1-Worklog/1.5-Week5/Lab04/Window-Snapshot.PNG)
+
+#### Linux Environment
+
+![Linux Enabled and Setting](/images/1-Worklog/1.5-Week5/Lab04/Linux-EnabledandSetting.PNG)
+
+![Linux Check](/images/1-Worklog/1.5-Week5/Lab04/IPV4-Linux-Check.PNG)
+
+![DNS Linux Check](/images/1-Worklog/1.5-Week5/Lab04/DNS-Linux-Check.PNG)
+
+![DNS LambServer Check](/images/1-Worklog/1.5-Week5/Lab04/DNS-LambServerCheck.PNG)
+
+#### Windows Instance Management
+
+![Window Instance Change](/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change.PNG)
+
+![Window Instance Change 2](/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change-2.PNG)
+
+![Window Instance Change 3](/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change-3.PNG)
+
+![Window Instance Stopped](/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Stopped.PNG)
+
+### Lab05: RDS và Setup Database
+
+#### Cấu hình VPC cho Database
+
+![VPC created](/images/1-Worklog/1.5-Week5/Lab05/VPC-created.PNG)
+
+#### Security Groups cho RDS
+
+![Security created](/images/1-Worklog/1.5-Week5/Lab05/Security-created.PNG)
+
+![SG RDS Created](/images/1-Worklog/1.5-Week5/Lab05/SG-RDS-Created.PNG)
+
+#### RDS Database Subnet Group
+
+![DB Subnet Group](/images/1-Worklog/1.5-Week5/Lab05/DB-Subnet-Group.PNG)
+
+#### EC2 Instance để truy cập Database
+
+![EC2 Instance Created](/images/1-Worklog/1.5-Week5/Lab05/EC2-Instance-Created.PNG)
+
+#### Kiểm tra Kết nối
+
+![Connect EC2 Success](/images/1-Worklog/1.5-Week5/Lab05/Connect-EC2-Success.PNG)
+
+![Done Setting MobaXterm](/images/1-Worklog/1.5-Week5/Lab05/Done-Setting-MobaXterm.PNG)
 
 

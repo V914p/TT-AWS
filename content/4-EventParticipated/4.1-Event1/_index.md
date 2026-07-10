@@ -1,126 +1,59 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Event 1 - FCAJ Community Day"
+date: 2026-05-09
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: "<b>4.1. </b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Event 1: FCAJ Community Day - Learning Mindset, AI Prompting, AI-Ready Fresher, and BMAD Method
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## General Information
 
-### Event Objectives
+**Event Name:** FCAJ Community Day - Learning Mindset, AI Prompting, AI-Ready Fresher, and BMAD Method  
+**Time:** 09:00 AM, May 9, 2026  
+**Location:** AWS / FCAJ Community Event  
+**Role:** Attendee  
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+## Event Objectives
 
-### Speakers
+This event aimed to support students and junior developers in building a stronger learning mindset in the age of AI. The sessions focused on forming consistent self-learning habits, applying AI tools in a more effective way, improving prompting techniques, and preparing the mindset required for an AI-ready fresher.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+The event also introduced a more organized approach to working with AI agents. Instead of using AI only for quick answers, participants learned how AI can become a useful assistant in software development when it is provided with clear context, proper documents, and well-scoped tasks.
 
-### Key Highlights
+## Speakers
 
-#### Identifying the drawbacks of legacy application architecture
+- **Mr. Long** - FCAJ Admin
+- **Mr. Thịnh** - DevOps / Cloud Engineer at FCAJ
+- **Mr. Khang** - Solution Architect at Cloud Kinetics
+- **Ms. Thảo** - Software Developer at VIB Bank
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+## Key Highlights
 
-#### Transitioning to modern application architecture – Microservices
+A major part of the event focused on how to make learning more sustainable and productive. The speakers explained that learners may easily lose motivation when progress is not immediately visible. Because of that, building discipline, designing a suitable learning environment, and setting realistic goals are very important.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+The event also provided practical knowledge about prompt engineering. I learned that a good prompt should clearly describe the role, instruction, context, input, expected output format, examples, and constraints. With these elements, AI tools can respond more accurately and produce more useful results.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+Another important topic was the mindset of an AI-ready fresher. The speakers emphasized that AI should be treated as a productivity tool rather than a replacement for real knowledge. Developers still need to understand the problem, evaluate possible solutions, and verify AI-generated outputs carefully.
 
-#### Domain-Driven Design (DDD)
+The BMAD/BMX method was also introduced as a document-driven way to cooperate with AI agents. This approach highlights the importance of clear documentation, breaking projects into epics and user stories, and assigning different AI agents such as PM Agent, Architect Agent, Developer Agent, and Review Agent to support development work.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+## Key Takeaways
 
-#### Event-Driven Architecture
+After attending this event, I understood that effective learning depends not only on motivation but also on discipline, planning, and a consistent system. I also realized that prompt engineering is becoming an essential skill for studying, researching, and developing software with AI tools.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+The event helped me understand that AI can improve productivity, but the developer must still be responsible for the final result. A good developer needs to know why a solution is used, what problem it solves, and how it can be maintained over time.
 
-#### Compute Evolution
+## Application to My Project
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+The lessons from this event can be applied directly to my RoughLife game project. When working with Unity, C#, online multiplayer, or AWS services, I can use AI more effectively by giving enough context, describing bugs clearly, and reviewing the output carefully instead of copying it without understanding.
 
-#### Amazon Q Developer
+The document-driven mindset is also useful for my team because RoughLife includes many parts such as gameplay, boss mechanics, online co-op, AWS architecture, and deployment. Clear documents can help the team reduce confusion, track decisions, and maintain the project more easily.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+## Event Experience
 
-### Key Takeaways
+This event was valuable because it combined technical knowledge with career-oriented thinking. I learned not only how to use AI more effectively, but also how important integrity, teamwork, long-term learning, and continuous improvement are for a future developer.
 
-#### Design Mindset
+## Event Photos
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![FCAJ Community Day Event](/images/4-EventParticipated/event1.png)

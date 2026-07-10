@@ -1,67 +1,55 @@
-
+﻿---
 title: "Worklog Tuần 2"
 date: 2026-04-27
 weight: 2
 chapter: false
-pre: "<b>1.2.</b>"
+pre: " <b> 1.2. </b> "
 ---
 
-## 🎯 Mục tiêu tuần 2
 
-- Làm quen với Unity Engine và workflow phát triển game
-- Hiểu AWS IAM và quản lý phân quyền
-- Chuẩn bị nền tảng để deploy hệ thống game lên AWS
+### Objective of Worklog:
 
----
+* Làm quen với Unity Engine và workflow phát triển game
+* Hiểu AWS IAM và quản lý phân quyền
+* Chuẩn bị nền tảng để deploy hệ thống game lên AWS
 
-## 📅 Kế hoạch & Tracking
+### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Cài Unity Hub & Unity Editor <br><br> - Làm quen giao diện Unity | 27/04/2026 | 27/04/2026 |  |
+| 3 | - Tìm hiểu Unity cơ bản: <br><br>&emsp; + GameObject <br><br>&emsp; + Component <br><br>&emsp; + Transform <br><br> - Tạo scene đơn giản | 28/04/2026 | 28/04/2026 |  |
+| 4 | - Lập trình C# trong Unity <br><br> - Tạo script di chuyển nhân vật <br><br> - Hiểu vòng đời MonoBehaviour | 29/04/2026 | 29/04/2026 |  |
+| 5 | - Tìm hiểu AWS IAM <br><br> - Hiểu User, Group, Role, Policy | 30/04/2026 | 30/04/2026 |  |
+| 6 | - Thực hành: Tạo IAM Group <br><br> - Gán quyền <br><br> - Thêm user vào group | 01/05/2026 | 01/05/2026 |  |
 
-| Thứ | Ngày       | Công việc                                                            | Trạng thái | Ghi chú |
-|-----|-----------|---------------------------------------------------------------------|------------|--------|
-| 2   | 27/04/2026 | - Cài Unity Hub & Unity Editor <br> - Làm quen giao diện Unity      | HOÀN THÀNH         |        |
-| 3   | 28/04/2026 | - Tìm hiểu Unity cơ bản: <br> + GameObject <br> + Component <br> + Transform <br> - Tạo scene đơn giản | HOÀN THÀNH | |
-| 4   | 29/04/2026 | - Lập trình C# trong Unity <br> - Tạo script di chuyển nhân vật <br> - Hiểu vòng đời MonoBehaviour | HOÀN THÀNH | |
-| 5   | 30/04/2026 | - Tìm hiểu AWS IAM <br> - Hiểu User, Group, Role, Policy           | HOÀN THÀNH | |
-| 6   | 01/05/2026 | - Thực hành: Tạo IAM Group <br> - Gán quyền <br> - Thêm user vào group | CHƯA HOÀN THÀNH | |
 
----
+### Kết quả đạt được tuần 2:
 
-## 🔐 Triển khai AWS IAM (Chi tiết)
+* Đã cài đặt Unity Hub và Unity Editor thành công.
+* Đã làm quen với giao diện Unity Editor và quy trình công việc cơ bản.
+* Hiểu được vai trò của GameObject, Component và Transform.
+* Đã tạo một cảnh Unity đơn giản để kiểm tra.
+* Đã viết một script C# chuyển động cơ bản cho một nhân vật.
+* Hiểu được vòng đời của MonoBehaviour.
+* Đã học cấu trúc cơ bản của AWS IAM:
+  * User.
+  * Group.
+  * Role.
+  * Policy.
+* Đã thực hành tạo một IAM Group và gắn quyền hạn.
+* Hiểu được tầm quan trọng của nguyên tắc quyền hạn tối thiểu khi gán quyền IAM.
 
-### Bước 1: Tạo IAM Group
+### Ảnh chụp và Minh chứng:
 
-- Truy cập AWS Console → IAM → **User Groups**
-- Chọn **Create group**
-- Tên group: `AdminGroup`
+![IAM AdminGroup Permissions](/images/1-Worklog/1.2-Week2/1.PNG)
 
----
+![IAM User Creation - VuGiap Account](/images/1-Worklog/1.2-Week2/2.PNG)
 
-### Bước 2: Gán quyền
+![AWS Console Home](/images/1-Worklog/1.2-Week2/3.PNG)
 
-- Gắn policy:
-  - `AdministratorAccess` (dùng cho giai đoạn development)
+![AdminRole Configuration](/images/1-Worklog/1.2-Week2/4.PNG)
 
-👉 Lưu ý: Production nên áp dụng **Least Privilege**
+![OperatorUser Permissions](/images/1-Worklog/1.2-Week2/5.PNG)
 
----
+![IAM Dashboard Overview](/images/1-Worklog/1.2-Week2/6.PNG)
 
-### Bước 3: Tạo IAM User
-
-- Vào IAM → Users → Create user
-- Bật:
-  - Console access
-  - Programmatic access
-
----
-
-### Bước 4: Gán User vào Group
-
-- Add user vào `AdminGroup`
-- Kiểm tra quyền kế thừa
-
----
-
-### Bước 5: Cấu hình AWS CLI
-
-```bash
-aws configure

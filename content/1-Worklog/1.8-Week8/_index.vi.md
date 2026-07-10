@@ -1,59 +1,216 @@
----
+﻿---
 title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Objective of Worklog:
 
-### Mục tiêu tuần 8:
-
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện đầy đủ còn lại các Lab và tham dự event của AWS
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Hoàn thành Lab 28 và Lab 30 | 8/06/2026 | 8/06/2026 | <https://000030.awsstudygroup.com/vi/> <https://000028.awsstudygroup.com/vi/> |
+| 3 | - Hoàn thành Lab 7 và Lab 8 | 9/06/2026 | 9/06/2026 | <https://000008.awsstudygroup.com/vi/> <https://000007.awsstudygroup.com/vi/> |
+| 4 | - Hoàn thành Lab 11 và Lab 9 | 10/06/2026 | 10/06/2026 | <https://000011.awsstudygroup.com/vi/> <https://000009.awsstudygroup.com/vi/> |
+| 5 | - Hoàn thành Lab 22 và Lab 27 | 11/06/2026 | 11/06/2026 | <https://000022.awsstudygroup.com/vi/> <https://000027.awsstudygroup.com/vi/> |
+| 6 | - Hoàn thành Lab 44 và Lab 48 | 12/06/2026 | 12/06/2026 | <https://000044.awsstudygroup.com/vi/> |
 
 
 ### Kết quả đạt được tuần 8:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn thành nhiều bài lab AWS liên quan đến IAM, monitoring, quản lý chi phí, CLI, và tự động hóa.
+* Học cách kiểm soát quyền truy cập tài nguyên EC2 bằng IAM và resource tags.
+* Hiểu IAM Permission Boundary và cách nó hạn chế quyền hạn người dùng.
+* Thực hành AWS Budget để kiểm soát chi phí.
+* Thực hành monitoring với AWS CloudWatch.
+* Học quy trình cơ bản của AWS CLI.
+* Học cách yêu cầu hỗ trợ sử dụng AWS Support.
+* Nghiên cứu tối ưu hóa chi phí EC2 với Lambda.
+* Thực hành quản lý tài nguyên với Tag và Resource Groups.
+* Học IAM Role & Condition.
+* Hiểu cách các ứng dụng có thể truy cập dịch vụ AWS sử dụng IAM Role.
+* Tham dự sự kiện AWS và ghi lại những ý tưởng cho việc học tập trong tương lai và cải thiện dự án.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Ảnh chụp và Minh chứng:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+#### Lab 7: AWS Budget
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+![Budget Create](/images/1-Worklog/1.8-Week8/Lab07/Budget-Create.PNG)
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+![Budget History](/images/1-Worklog/1.8-Week8/Lab07/Budget-History.PNG)
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+![Budget Alerts](/images/1-Worklog/1.8-Week8/Lab07/Butget-Alerts.PNG)
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+![Cost Budget Create](/images/1-Worklog/1.8-Week8/Lab07/Cost-Budget-Create.PNG)
+
+![RI Budget Create](/images/1-Worklog/1.8-Week8/Lab07/RIBudget-Create.PNG)
+
+![Saving Plans Budget Create](/images/1-Worklog/1.8-Week8/Lab07/SavingPlansBudget-Create.PNG)
+
+![Usage Budget Create](/images/1-Worklog/1.8-Week8/Lab07/Usage-Budget-Create.PNG)
+
+![Usage Budget History](/images/1-Worklog/1.8-Week8/Lab07/Usage-Budget-History.PNG)
+
+#### Lab 8: AWS CloudWatch
+
+![Math Search](/images/1-Worklog/1.8-Week8/Lab08/Math-Search.PNG)
+
+![Search Test](/images/1-Worklog/1.8-Week8/Lab08/Search-Test.png)
+
+![Stack Create](/images/1-Worklog/1.8-Week8/Lab08/Stack-Crate.PNG)
+
+![Watch Metric](/images/1-Worklog/1.8-Week8/Lab08/Watch-Mertric.PNG)
+
+#### Lab 9: AWS Support
+
+![Support Case Create](/images/1-Worklog/1.8-Week8/Lab09/Case-Create.PNG)
+
+#### Lab 11: AWS CLI & Resource Groups
+
+![IAM Group Access Key](/images/1-Worklog/1.8-Week8/Lab11/AIM-Group-AccessKey.PNG)
+
+![Bucket Create Delete](/images/1-Worklog/1.8-Week8/Lab11/Bucket-Create-Delete.PNG)
+
+![Describe Instances](/images/1-Worklog/1.8-Week8/Lab11/Describe-Intances.PNG)
+
+![Instance Created](/images/1-Worklog/1.8-Week8/Lab11/Instance-Created.PNG)
+
+![Instance Terminated](/images/1-Worklog/1.8-Week8/Lab11/Instance-Terminated.PNG)
+
+![SNS Test](/images/1-Worklog/1.8-Week8/Lab11/SNS-Test.PNG)
+
+![VPC](/images/1-Worklog/1.8-Week8/Lab11/VPC.PNG)
+
+#### Lab 22: EC2 Cost Optimization with Lambda
+
+![EC2 Instance Create](/images/1-Worklog/1.8-Week8/Lab22/EC2-Instance-Create.PNG)
+
+![EC2 Instance Tags](/images/1-Worklog/1.8-Week8/Lab22/EC2-Instance-Tags.PNG)
+
+![Function Start](/images/1-Worklog/1.8-Week8/Lab22/Function-Start.PNG)
+
+![Function Stop](/images/1-Worklog/1.8-Week8/Lab22/Function-Stop.PNG)
+
+![Instance Test Stop](/images/1-Worklog/1.8-Week8/Lab22/Instance-Test-Stop.PNG)
+
+![Role Create Lambda](/images/1-Worklog/1.8-Week8/Lab22/Role-Create-Lambda.PNG)
+
+![Rule Create Start](/images/1-Worklog/1.8-Week8/Lab22/Rule-Create-Start.PNG)
+
+![Rule Create](/images/1-Worklog/1.8-Week8/Lab22/Rule-Create.PNG)
+
+![Security Group Create](/images/1-Worklog/1.8-Week8/Lab22/Security-Group-Create.PNG)
+
+![Slack Create](/images/1-Worklog/1.8-Week8/Lab22/Slack-Create.PNG)
+
+![Test Start Slack](/images/1-Worklog/1.8-Week8/Lab22/Test-Start-Slack.PNG)
+
+![Test Start](/images/1-Worklog/1.8-Week8/Lab22/Test-Start.PNG)
+
+![Test Stop Slack](/images/1-Worklog/1.8-Week8/Lab22/Test-Stop-Slack.PNG)
+
+![Test Stop](/images/1-Worklog/1.8-Week8/Lab22/Test-Stop.PNG)
+
+![VPC Create](/images/1-Worklog/1.8-Week8/Lab22/VPC-Create.PNG)
+
+#### Lab 27: AWS CLI & Resource Tags
+
+![Add Tag Instance](/images/1-Worklog/1.8-Week8/Lab27/Add-Tag-Instance.PNG)
+
+![CLI Filters](/images/1-Worklog/1.8-Week8/Lab27/CLI-Filters.PNG)
+
+![CLI Instance Create](/images/1-Worklog/1.8-Week8/Lab27/CLI-Instance-Create.PNG)
+
+![CLI Tag](/images/1-Worklog/1.8-Week8/Lab27/CLI-Tag.PNG)
+
+![CLI Volume Create](/images/1-Worklog/1.8-Week8/Lab27/CLI-Volume-Create.PNG)
+
+![EC2 Instance Create 2](/images/1-Worklog/1.8-Week8/Lab27/EC2-Instance-Create-2.PNG)
+
+![EC2 Instance Create](/images/1-Worklog/1.8-Week8/Lab27/EC2-Instance-Create.PNG)
+
+![Filter Tag](/images/1-Worklog/1.8-Week8/Lab27/Filter-Tag.PNG)
+
+![Resource Group](/images/1-Worklog/1.8-Week8/Lab27/Resource-Group.PNG)
+
+#### Lab 28: IAM Permission Boundary
+
+![EC2 Group Policy Create](/images/1-Worklog/1.8-Week8/Lab28/EC2-GroupPolicy-Create.PNG)
+
+![EC2 Instance Launch Failed](/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Launche-Failed.PNG)
+
+![EC2 Instance Launch Succeed](/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Launche-Succed.PNG)
+
+![EC2 Instance Terminated](/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Terminated.PNG)
+
+![EC2 Test NVirginia](/images/1-Worklog/1.8-Week8/Lab28/EC2-Test-NVirginia.PNG)
+
+![EC2 Test Tokyo](/images/1-Worklog/1.8-Week8/Lab28/EC2-Test-Tokyo.PNG)
+
+![IAM Role](/images/1-Worklog/1.8-Week8/Lab28/IAM-Role.PNG)
+
+![Resource Tag Fail](/images/1-Worklog/1.8-Week8/Lab28/Resource-Tag-Fail.PNG)
+
+![Switch Role](/images/1-Worklog/1.8-Week8/Lab28/Switch-Role.PNG)
+
+![User Admin Group](/images/1-Worklog/1.8-Week8/Lab28/User-Admin-Group.PNG)
+
+![User Admin](/images/1-Worklog/1.8-Week8/Lab28/User-Admin.PNG)
+
+#### Lab 30: IAM Access Control by Region
+
+![IAM Create](/images/1-Worklog/1.8-Week8/Lab30/IAM-Create.PNG)
+
+![IAM User Create](/images/1-Worklog/1.8-Week8/Lab30/IAM-User-Create.PNG)
+
+![User Test Sign Sydney](/images/1-Worklog/1.8-Week8/Lab30/User-Test-Sing.PNG)
+
+![User Test Sydney](/images/1-Worklog/1.8-Week8/Lab30/User-Test-Sydney.PNG)
+
+#### Lab 44: IAM Condition with Date
+
+![IAM Group Create](/images/1-Worklog/1.8-Week8/Lab44/IAM-Group-Create.PNG)
+
+![EC2 Admin Test](/images/1-Worklog/1.8-Week8/Lab44/EC2-admin-Test.PNG)
+
+![EC2 RDS Test](/images/1-Worklog/1.8-Week8/Lab44/EC2-RDS-Test.PNG)
+
+![Group Test EC2](/images/1-Worklog/1.8-Week8/Lab44/Group-Test-EC2.PNG)
+
+![Group Test RDS](/images/1-Worklog/1.8-Week8/Lab44/Group-Test-RDS.PNG)
+
+![Lab 44 Role Create](/images/1-Worklog/1.8-Week8/Lab44/Lab44-Role-Create.PNG)
+
+![IP Permission Switch Role](/images/1-Worklog/1.8-Week8/Lab44/Ip-Permisstion-SwitchRole.PNG)
+
+![IP Permission](/images/1-Worklog/1.8-Week8/Lab44/Ip-Permisstion.PNG)
+
+![No Permission User Test Update Role](/images/1-Worklog/1.8-Week8/Lab44/NoPermission-Test-UpdateRole.PNG)
+
+![No Permission Test](/images/1-Worklog/1.8-Week8/Lab44/NoPermission-Test.PNG)
+
+![Time Update Test](/images/1-Worklog/1.8-Week8/Lab44/Time-Update-Test.PNG)
+
+![Time Update](/images/1-Worklog/1.8-Week8/Lab44/Time-Update.PNG)
+
+![User Create](/images/1-Worklog/1.8-Week8/Lab44/User-Create.PNG)
+
+#### Lab 48: IAM Role for Applications
+
+![EC2 Create](/images/1-Worklog/1.8-Week8/Lab48/EC2-Create.PNG)
+
+![IAM Create](/images/1-Worklog/1.8-Week8/Lab48/IAM-Create.PNG)
+
+![Role Upload File](/images/1-Worklog/1.8-Week8/Lab48/Role-Upload-File.PNG)
+
+![S3 Create](/images/1-Worklog/1.8-Week8/Lab48/S3-Create.PNG)
+
+![S3 List](/images/1-Worklog/1.8-Week8/Lab48/S3-List.PNG)
+
+![Upload File S3](/images/1-Worklog/1.8-Week8/Lab48/Upload-File-S3.PNG)
 
 

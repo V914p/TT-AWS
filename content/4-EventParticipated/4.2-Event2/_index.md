@@ -1,126 +1,72 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Event 2 - FCAJ Community Day AWS Event"
+date: 2026-05-30
+weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: "<b>4.2. </b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Event 2: FCAJ Community Day - AWS Event
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## General Information
 
-### Event Objectives
+**Event Name:** FCAJ Community Day - AWS Event  
+**Time:** May 30, 2026  
+**Location:** AWS / FCAJ Community Event  
+**Role:** Participant  
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+## Event Objectives
 
-### Speakers
+The goal of this event was to bring participants practical knowledge and real sharing related to AWS learning, hackathon experience, personal confidence, and DevOps thinking. The sessions provided both technical insights and personal development lessons.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+This event was meaningful because the content was not limited to cloud services only. It also covered communication, teamwork, confidence, project execution, and lessons learned from real development situations.
 
-### Key Highlights
+## Speakers
 
-#### Identifying the drawbacks of legacy application architecture
+- **Huynh Thai Linh** - *Level Up Your AWS Skills with Cloud Quest and Floci*
+- **The Ballers Team:** **Huynh An Khuong, Mai Quoc Anh, Nguyen Tran Minh Quan** - *HACKATHON: "HA! a tons of fun", "and bug fixes", "and back pains", "and deep questions"*
+- **Nguyen Thi Quynh Nhu** - *Why We Always Need Confidence*
+- **Nghia Tran** - *Tu Vi Dai Viet*
+- **Tran Minh Quan** - *The Hidden Iceberg of a Project: DevOps Before Disaster*
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+## Key Highlights
 
-#### Transitioning to modern application architecture – Microservices
+The first session was delivered by **Huynh Thai Linh** with the topic *Level Up Your AWS Skills with Cloud Quest and Floci*. This session showed that learning AWS can become more engaging when it is supported by gamified learning and structured practice. It encouraged learners to build cloud knowledge gradually instead of feeling overwhelmed by the large number of AWS services.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+The hackathon sharing from **The Ballers Team**, including **Huynh An Khuong, Mai Quoc Anh, and Nguyen Tran Minh Quan**, was another memorable part of the event. Their story reflected the real atmosphere of a hackathon, including excitement, bugs, pressure, physical tiredness, deep questions, and teamwork challenges. From this session, I learned that project success is not only measured by the final product but also by how the team works together under pressure.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+The session by **Nguyen Thi Quynh Nhu**, *Why We Always Need Confidence*, highlighted the importance of confidence in study, career development, and daily communication. It reminded me that technical ability is important, but confidence is also necessary when presenting ideas, collaborating with others, and taking initiative.
 
-#### Domain-Driven Design (DDD)
+The presentation *Tu Vi Dai Viet* by **Nghia Tran** added a creative and different color to the program. It showed that a presentation can become more attractive when the speaker connects ideas with culture, personal identity, and storytelling.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+The final highlighted session was *The Hidden Iceberg of a Project: DevOps Before Disaster* by **Tran Minh Quan**. This topic explained that many project issues are hidden below the surface before they become serious failures. These issues may be related to deployment, infrastructure, monitoring, team workflow, or communication. This helped me understand that DevOps is not only about using tools but also about preparation, risk prevention, and long-term stability.
 
-#### Event-Driven Architecture
+## Key Takeaways
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+After joining this event, I learned that growth in technology requires more than technical knowledge. It also requires confidence, teamwork, communication, problem-solving, and the ability to learn from real project experience.
 
-#### Compute Evolution
+From the AWS learning session, I understood that cloud knowledge should be developed step by step through hands-on practice. From the hackathon sharing, I learned that real development work often includes bugs, time pressure, unexpected problems, and teamwork challenges. From the confidence session, I realized that mindset and self-belief are important for both academic and career growth. From the DevOps talk, I learned that careful preparation can reduce many hidden risks in a project.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+## Application to My Project
 
-#### Amazon Q Developer
+The knowledge from this event can be applied directly to my **RoughLife** project. The AWS session gave me more motivation to continue improving my cloud foundation, which will be useful when deploying and managing parts of the game system later.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+The hackathon experience also provided practical lessons for teamwork and project execution. Since RoughLife is a group project, communication, task assignment, and problem-solving under pressure are very important. The confidence session reminded me that I need to present ideas clearly and confidently, especially when explaining gameplay systems, project architecture, or technical decisions.
 
-### Key Takeaways
+The DevOps session is also closely related to RoughLife. The project is not only a Unity game but also a system that may include multiplayer networking, deployment, monitoring, and cloud services. Understanding hidden problems before they become failures can help the team design a more stable and maintainable system.
 
-#### Design Mindset
+## Event Experience
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+This event was a useful experience because it combined cloud knowledge, real project stories, and personal development topics. I appreciated the diversity of the sessions because each speaker brought a different viewpoint and made the event both informative and inspiring.
 
-#### Technical Architecture
+Overall, the event helped me improve not only my technical understanding but also my mindset as a student preparing for a technology career. It gave me more motivation to keep learning AWS, improve teamwork skills, and develop RoughLife in a more practical and professional direction.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+## Event Photos
 
-#### Modernization Strategy
+![AWS Event Community Day 1](/images/4-EventParticipated/event2-1.png)
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+![AWS Event Community Day 2](/images/4-EventParticipated/event2-2.png)
 
-### Applying to Work
+![AWS Event Community Day 3](/images/4-EventParticipated/event2-3.png)
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![AWS Event Community Day 4](/images/4-EventParticipated/event2-4.png)

@@ -1,59 +1,34 @@
----
+﻿---
+
 title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+date: 2026-05-11
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
----
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+----------------------
 
+### Mục tiêu của Worklog:
 
-### Mục tiêu tuần 4:
-
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu workflow phát triển Unity nâng cao
+* Hiểu hệ thống vật lý và hệ thống animation trong Unity
+* Cải thiện kiến trúc lập trình C# cho các dự án game có khả năng mở rộng
+* Thực hành các kỹ thuật tối ưu hiệu năng cơ bản cho game
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ   | Công việc                                                                                                              | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| ----- | ---------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| Thứ 2 | - Tìm hiểu workflow Unity Editor nâng cao <br><br> - Sắp xếp cấu trúc project và các thư mục                           | 11/05/2026   | 11/05/2026      |                |
+| Thứ 3 | - Nghiên cứu hệ thống vật lý trong Unity <br><br>  + Rigidbody <br><br>  + Collider <br><br>  + Physics Materials      | 12/05/2026   | 12/05/2026      |                |
+| Thứ 4 | - Tìm hiểu hệ thống Animation trong Unity <br><br>  + Animator <br><br>  + Animation Controller <br><br>  + Blend Tree | 13/05/2026   | 13/05/2026      |                |
+| Thứ 5 | - Cải thiện kiến trúc lập trình C# <br><br>  + Singleton Pattern <br><br>  + Game Manager <br><br>  + Event System     | 14/05/2026   | 14/05/2026      |                |
+| Thứ 6 | - Tìm hiểu các kỹ thuật tối ưu hiệu năng <br><br>  + Object Pooling <br><br>  + Draw Calls <br><br>  + Profiler        | 15/05/2026   | 15/05/2026      |                |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu được workflow phát triển Unity nâng cao
+* Xây dựng được các hệ thống game có thể tái sử dụng bằng C#
+* Tạo được các transition trạng thái animation
+* Áp dụng Unity Physics vào các cơ chế gameplay
+* Nắm được workflow tối ưu hiệu năng cơ bản cho game
+* Cải thiện cấu trúc tổ chức project

@@ -1,57 +1,52 @@
----
+﻿---
 title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-15
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 9 Objectives:
+### Objective of Worklog:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete the core top-down gameplay foundation for the 2D co-op boss fight project.
+* Convert legacy platformer systems into top-down systems, especially movement, aiming, combat, and weapons.
+* Build the Minotaur boss mechanics with multiple states, skills, knockback, block, and parry interactions.
+* Run the first multiplayer tests using Unity Netcode for GameObjects.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| 2 | - Analyze the current Unity project <br> - Define the direction for converting from platformer to top-down co-op boss fight <br> - Set up Player top-down movement <br> - Configure owner-based Player control in the online environment | 06/15/2026 | 06/15/2026 | Unity Documentation, Netcode for GameObjects |
+| 3 | - Build the Minotaur Boss foundation <br> - Design the Boss state machine with Move, ChooseSkill, Attack, and Stun <br> - Add Boss data such as phase, movement speed, cooldown, and damage multiplier | 06/16/2026 | 06/16/2026 | Unity Documentation, Project source code |
+| 4 | - Integrate the Core combat system for Boss and Player <br> - Connect Stats, Health, Poise, DamageReceiver, and KnockBackReceiver <br> - Test Boss knockback against Player <br> - Handle stun when Poise reaches zero | 06/17/2026 | 06/17/2026 | Project source code |
+| 5 | - Convert the Weapon system from platformer to top-down <br> - Design a single-weapon system with left-click and right-click skills <br> - Set up Sword with normal attack, Block, and Parry <br> - Fix Block/Parry direction based on top-down aim | 06/18/2026 | 06/18/2026 | Unity Documentation, Project source code |
+| 6 | - Debug Block and Parry mechanics <br> - Fix null reference errors related to TopDownAim, DamageReceiver, and KnockBackReceiver <br> - Test Block/Parry windows using animation events <br> - Prevent Player from receiving continuous knockback when hit | 06/19/2026 | 06/19/2026 | Project source code |
+| 7 | - Complete initial weapon tests for Sword, Bow, and Staff <br> - Test left-click and right-click input <br> - Tune animation events for AttackAction, EnterAttackPhase, and AnimationFinished | 06/20/2026 | 06/20/2026 | Unity Documentation, Project source code |
+| Sunday | - Run integrated offline and local online gameplay testing <br> - Check Player movement, aim direction, animation sync, and combat interaction <br> - Record issues to be handled next week | 06/21/2026 | 06/21/2026 | Netcode for GameObjects, Project source code |
 
 ### Week 9 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Completed the foundation of top-down Player movement.
+* Player can move in four directions using Rigidbody2D.
+* Player can aim based on mouse position.
+* Movement direction and look direction are synchronized in the online environment.
+* Only the Player owner can control their own character.
+* Built the Minotaur Boss with a basic state machine:
+  * Move.
+  * ChooseSkill.
+  * Attack.
+  * Stun.
+  * Phase transition.
+* Implemented the foundation for two Boss phases and multiple skills:
+  * Melee Attack.
+  * AOE Attack.
+  * Range Attack.
+  * Dash Attack.
+  * Defend.
+* Integrated Boss with the Core combat system.
+* Converted the first part of the Weapon system into top-down gameplay.
+* Fixed important issues related to continuous knockback, Block/Parry direction, animation events, and null references.
+* Completed the first round of offline and local multiplayer testing with Unity Netcode.
 
-* Successfully created and configured an AWS Free Tier account.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...

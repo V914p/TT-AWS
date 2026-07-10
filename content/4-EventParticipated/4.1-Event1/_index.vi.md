@@ -1,125 +1,59 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Event 1 - FCAJ Community Day"
+date: 2026-05-09
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: "<b>4.1. </b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Event 1: FCAJ Community Day - Tư duy học tập, AI Prompting, AI-Ready Fresher và BMAD Method
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## Thông tin chung
 
-### Mục Đích Của Sự Kiện
+**Tên sự kiện:** FCAJ Community Day - Tư duy học tập, AI Prompting, AI-Ready Fresher và BMAD Method  
+**Thời gian:** 09:00, ngày 09/05/2026  
+**Địa điểm:** AWS / FCAJ Community Event  
+**Vai trò:** Người tham dự  
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+## Mục tiêu của sự kiện
 
-### Danh Sách Diễn Giả
+Sự kiện hướng đến việc giúp sinh viên và các bạn lập trình viên trẻ xây dựng tư duy học tập tốt hơn trong thời đại AI. Nội dung tập trung vào cách duy trì thói quen tự học, sử dụng công cụ AI hiệu quả hơn, cải thiện kỹ năng viết prompt và chuẩn bị tâm thế phù hợp của một AI-ready fresher.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+Bên cạnh đó, sự kiện còn giới thiệu cách làm việc có tổ chức với AI Agent. Thay vì chỉ dùng AI để hỏi đáp nhanh, người tham dự được hướng dẫn cách tận dụng AI trong quá trình phát triển phần mềm khi có ngữ cảnh rõ ràng, tài liệu đầy đủ và nhiệm vụ được chia nhỏ hợp lý.
 
-### Nội Dung Nổi Bật
+## Diễn giả
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+- **Mr. Long** - FCAJ Admin
+- **Mr. Thịnh** - DevOps / Cloud Engineer tại FCAJ
+- **Mr. Khang** - Solution Architect tại Cloud Kinetics
+- **Ms. Thảo** - Software Developer tại VIB Bank
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+## Nội dung nổi bật
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Một nội dung quan trọng của sự kiện là cách giúp việc học trở nên bền vững và hiệu quả hơn. Các diễn giả chia sẻ rằng người học dễ mất động lực khi chưa thấy kết quả ngay lập tức. Vì vậy, việc xây dựng kỷ luật, tạo môi trường học phù hợp và đặt mục tiêu thực tế là rất cần thiết.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+Sự kiện cũng mang đến nhiều kiến thức thực tế về prompt engineering. Em hiểu rằng một prompt tốt nên thể hiện rõ vai trò, yêu cầu, ngữ cảnh, dữ liệu đầu vào, định dạng đầu ra mong muốn, ví dụ và các ràng buộc. Khi có đầy đủ những yếu tố này, công cụ AI sẽ đưa ra phản hồi chính xác và hữu ích hơn.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+Một phần đáng chú ý khác là mindset của một AI-ready fresher. Các diễn giả nhấn mạnh rằng AI nên được xem là công cụ hỗ trợ năng suất, không phải sự thay thế cho hiểu biết thật sự. Lập trình viên vẫn cần hiểu vấn đề, đánh giá giải pháp và kiểm chứng kết quả do AI tạo ra.
 
-#### Domain-Driven Design (DDD)
+Sự kiện cũng giới thiệu phương pháp BMAD/BMX như một cách tiếp cận phát triển phần mềm theo hướng tài liệu hóa khi làm việc với AI Agent. Phương pháp này đề cao việc viết tài liệu rõ ràng, chia dự án thành epic và user story, đồng thời sử dụng các AI Agent như PM Agent, Architect Agent, Developer Agent và Review Agent để hỗ trợ quá trình phát triển.
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+## Bài học rút ra
 
-#### Event-Driven Architecture
+Sau khi tham gia sự kiện, em hiểu rằng học tập hiệu quả không chỉ dựa vào cảm hứng mà còn cần kỷ luật, kế hoạch và một hệ thống phù hợp. Em cũng nhận ra rằng prompt engineering là kỹ năng ngày càng quan trọng khi sử dụng AI cho học tập, nghiên cứu và phát triển phần mềm.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+Sự kiện giúp em nhìn rõ hơn vai trò của AI trong công việc. AI có thể tăng năng suất, nhưng lập trình viên vẫn phải chịu trách nhiệm với kết quả cuối cùng. Một lập trình viên tốt cần hiểu vì sao chọn giải pháp, giải pháp đó giải quyết vấn đề gì và làm sao để duy trì lâu dài.
 
-#### Compute Evolution
+## Ứng dụng vào dự án
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+Những kiến thức từ sự kiện có thể áp dụng trực tiếp vào dự án game RoughLife của em. Khi làm việc với Unity, C#, online multiplayer hoặc các dịch vụ AWS, em có thể dùng AI hiệu quả hơn bằng cách cung cấp đủ ngữ cảnh, mô tả lỗi rõ ràng và kiểm tra lại kết quả thay vì sao chép một cách máy móc.
 
-#### Amazon Q Developer
+Tư duy làm việc theo tài liệu cũng rất phù hợp với nhóm vì RoughLife có nhiều thành phần như gameplay, cơ chế boss, online co-op, kiến trúc AWS và triển khai. Tài liệu rõ ràng giúp nhóm giảm nhầm lẫn, dễ theo dõi quyết định kỹ thuật và bảo trì dự án tốt hơn.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+## Trải nghiệm sự kiện
 
-### Những Gì Học Được
+Đây là một sự kiện có giá trị vì kết hợp giữa kiến thức kỹ thuật và tư duy nghề nghiệp. Em không chỉ học được cách sử dụng AI hiệu quả hơn mà còn hiểu thêm tầm quan trọng của sự trung thực, tinh thần làm việc nhóm, tư duy dài hạn và quá trình cải thiện liên tục của một lập trình viên trong tương lai.
 
-#### Tư Duy Thiết Kế
+## Ảnh sự kiện
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+![FCAJ Community Day Event](/images/4-EventParticipated/event1.png)

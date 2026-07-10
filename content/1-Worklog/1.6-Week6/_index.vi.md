@@ -1,58 +1,36 @@
----
+﻿---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-05-25
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 6:
+### Objective of Worklog:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Cập nhật worklog dựa trên tiến độ thực tế đã làm trong Unity
+* Cải thiện cấu trúc project và các hệ thống gameplay hiện có
+* Tiếp tục rà soát Player, Enemy, FSM, Core System, Animation và Combat logic
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Rà soát lại cấu trúc project Unity hiện tại <br><br> - Sắp xếp folder Scripts, Prefabs, Animations, Scenes và ScriptableObjects <br><br> - Kiểm tra lại các hệ thống Player, Enemy, Core và Weapon | 25/05/2026 | 25/05/2026 | Unity Project |
+| 3 | - Cải thiện workflow di chuyển của Player <br><br> - Kiểm tra Rigidbody2D, Collider2D, ground check và movement logic <br><br> - Rà soát liên kết giữa Player State Machine và Animator parameters | 26/05/2026 | 26/05/2026 | Unity Manual |
+| 4 | - Tiếp tục làm việc với kiến trúc Enemy <br><br> - Rà soát luồng Finite State Machine: Idle, Move, Player Detected, Attack, Stun và Dead <br><br> - Kiểm tra cách Enemy sử dụng Core Components như Movement, CollisionSenses, Combat và Stats | 27/05/2026 | 27/05/2026 | Unity C# Scripts |
+| 5 | - Cải thiện logic Combat System <br><br> - Rà soát damage, knockback, poise/stun và health handling <br><br> - Kiểm tra giao tiếp giữa IDamageable, IKnockbackable, Combat và Stats components | 28/05/2026 | 28/05/2026 | Unity Gameplay System |
+| 6 | - Rà soát workflow Animation và Weapon <br><br> - Kiểm tra Animator parameters, Animation Events, Attack Counter và luồng Weapon Enter/Exit <br><br> - Ghi chú các điểm cần cải thiện cho melee, ranged, dash và boss attack system | 29/05/2026 | 29/05/2026 | Unity Animator |
+| 7 | - Đi tham dự sự kiện <br><br> - Tham gia các hoạt động chia sẻ/thảo luận <br><br> - Ghi nhận các kiến thức và ý tưởng có thể áp dụng cho project Unity | 30/05/2026 | 30/05/2026 | Event Session |
 
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Cập nhật tiến độ Unity dựa trên công việc thực tế đã làm
+* Rà soát và cải thiện tổ chức project
+* Nắm rõ hơn workflow Player, Enemy, FSM, Core System, Combat và Animation
+* Xác định các hệ thống có thể tái sử dụng cho boss development
+* Chuẩn bị hướng kỹ thuật cho enemy nâng cao và boss mechanics
+* Tham dự sự kiện và ghi nhận các ý tưởng có thể áp dụng cho project
 
 

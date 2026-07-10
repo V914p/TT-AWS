@@ -1,65 +1,55 @@
----
+﻿---
 title: "Week 2 Worklog"
 date: 2026-04-27
 weight: 2
 chapter: false
-pre: "<b>1.2.</b>"
+pre: " <b> 1.2. </b> "
 ---
 
-## 🎯 Week 2 Objectives
 
-- Get familiar with Unity Engine and basic game development workflow
-- Understand AWS IAM and implement secure permission management
-- Prepare foundation for deploying game-related services on AWS
+### Objective of Worklog:
 
----
+* Get familiar with Unity Engine and the basic game development workflow.
+* Understand AWS IAM and permission management.
+* Prepare the foundation for deploying game-related systems on AWS.
 
-## 📅 Weekly Plan & Tracking
+### Tasks to be carried out this week:
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| 2 | - Install Unity Hub & Unity Editor <br> - Get familiar with the Unity interface | 04/27/2026 | 04/27/2026 | Unity Documentation |
+| 3 | - Learn Unity basics: <br>&emsp; + GameObject <br>&emsp; + Component <br>&emsp; + Transform <br> - Create a simple scene | 04/28/2026 | 04/28/2026 | Unity Documentation |
+| 4 | - Learn C# programming in Unity <br> - Create a character movement script <br> - Understand the MonoBehaviour lifecycle | 04/29/2026 | 04/29/2026 | Unity Documentation |
+| 5 | - Learn about AWS IAM <br> - Understand User, Group, Role, and Policy | 04/30/2026 | 04/30/2026 | AWS IAM Documentation |
+| 6 | - Practice: Create an IAM Group <br> - Attach permissions <br> - Add a user to the group | 05/01/2026 | 05/01/2026 | AWS IAM Documentation |
 
-| Day | Date       | Tasks                                                                 | Status | Notes |
-|-----|-----------|----------------------------------------------------------------------|--------|------|
-| Mon | 27/04/2026 | - Install Unity Hub & Unity Editor <br> - Explore Unity interface (Scene, Game, Inspector, Hierarchy) | DONE | |
-| Tue | 28/04/2026 | - Learn basic Unity concepts: <br> + GameObject <br> + Component <br> + Transform <br> - Create simple scene | DONE | |
-| Wed | 29/04/2026 | - Learn scripting with C# in Unity <br> - Create Player movement script <br> - Understand MonoBehaviour lifecycle | DONE | |
-| Thu | 30/04/2026 | - Introduction to AWS IAM <br> - Understand Users, Groups, Roles, Policies | DONE | |
-| Fri | 01/05/2026 | - Practice: Create IAM Admin Group <br> - Assign permissions <br> - Add user to group | in progress | |
+### Week 2 Achievements:
 
----
+* Installed Unity Hub and Unity Editor successfully.
+* Became familiar with the Unity Editor interface and basic workflow.
+* Understood the roles of GameObject, Component, and Transform.
+* Created a simple Unity scene for testing.
+* Wrote a basic C# movement script for a character.
+* Understood the MonoBehaviour lifecycle.
+* Learned the basic structure of AWS IAM:
+  * User.
+  * Group.
+  * Role.
+  * Policy.
+* Practiced creating an IAM Group and attaching permissions.
+* Understood the importance of least privilege when assigning IAM permissions.
 
-## 🔐 AWS IAM Implementation (Detailed)
+### Screenshots and Evidence:
 
-### Step 1: Create IAM Group
+![IAM AdminGroup Permissions](/images/1-Worklog/1.2-Week2/1.PNG)
 
-- Go to AWS Console → IAM → **User Groups**
-- Click **Create group**
-- Group name: `AdminGroup`
+![IAM User Creation - VuGiap Account](/images/1-Worklog/1.2-Week2/2.PNG)
 
-### Step 2: Attach Permissions
+![AWS Console Home](/images/1-Worklog/1.2-Week2/3.PNG)
 
-- Attach policy:
-  - `AdministratorAccess` (for full access in development phase)
+![AdminRole Configuration](/images/1-Worklog/1.2-Week2/4.PNG)
 
-👉 Note: In production, should follow **Principle of Least Privilege**
+![OperatorUser Permissions](/images/1-Worklog/1.2-Week2/5.PNG)
 
----
+![IAM Dashboard Overview](/images/1-Worklog/1.2-Week2/6.PNG)
 
-### Step 3: Create IAM User
 
-- Go to IAM → Users → Create user
-- Enable:
-  - AWS Management Console access
-  - Programmatic access (for CLI)
-
----
-
-### Step 4: Add User to Group
-
-- Assign user to `AdminGroup`
-- Verify permissions inherited from group
-
----
-
-### Step 5: Configure AWS CLI
-
-```bash
-aws configure
