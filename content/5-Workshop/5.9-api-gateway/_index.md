@@ -40,7 +40,7 @@ This flow separates the Unity Client from direct Lambda invocation and provides 
 
 #### API Gateway Overview Evidence
 
-![API Gateway overview](/images/5-Workshop/5.9-api-gateway/08_01_API_Gateway_Overview.png)
+![API Gateway overview](/TT-AWS/images/5-Workshop/5.9-api-gateway/08_01_API_Gateway_Overview.png)
 
 The image above shows that the `RoughLifeRoomHttpApi` HTTP API was created successfully. The API has a default endpoint and is deployed in the **Asia Pacific Singapore** region.
 
@@ -50,7 +50,7 @@ This API acts as the main HTTP gateway for the RoughLife Unity Client to communi
 
 #### POST /room Route Evidence
 
-![API Gateway route POST room](/images/5-Workshop/5.9-api-gateway/08_02_API_Gateway_Route_POST_room.png)
+![API Gateway route POST room](/TT-AWS/images/5-Workshop/5.9-api-gateway/08_02_API_Gateway_Route_POST_room.png)
 
 The image above shows the `/room` route with the `POST` method. This is the main endpoint that the Unity Client will call for room system requests.
 
@@ -89,7 +89,7 @@ Example match result request:
 
 #### CORS Evidence
 
-![API Gateway CORS](/images/5-Workshop/5.9-api-gateway/08_03_API_Gateway_CORS.png)
+![API Gateway CORS](/TT-AWS/images/5-Workshop/5.9-api-gateway/08_03_API_Gateway_CORS.png)
 
 The image above shows the CORS configuration for API Gateway.
 
@@ -105,7 +105,7 @@ This configuration allows the client or HTTP testing tools to call the API witho
 
 #### Stage and Invoke URL Evidence
 
-![API Gateway stage invoke URL](/images/5-Workshop/5.9-api-gateway/08_04_API_Gateway_Stage_Invoke_URL.png)
+![API Gateway stage invoke URL](/TT-AWS/images/5-Workshop/5.9-api-gateway/08_04_API_Gateway_Stage_Invoke_URL.png)
 
 The image above shows that the `$default` stage was deployed successfully. API Gateway provides an Invoke URL that clients can use to call the API.
 
@@ -123,7 +123,7 @@ This endpoint will be used by the Unity Client to send room creation, room listi
 
 #### CMD API Test
 
-![CMD test list room](/images/5-Workshop/5.9-api-gateway/08_05_CMD_Test_ListRoom.png)
+![CMD test list room](/TT-AWS/images/5-Workshop/5.9-api-gateway/08_05_CMD_Test_ListRoom.png)
 
 The image above shows the API Gateway test using the `curl` command from CMD. The request sends the `list` action to the `/room` endpoint, and the API returns the available room list.
 

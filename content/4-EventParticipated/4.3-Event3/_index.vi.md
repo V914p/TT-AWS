@@ -69,8 +69,8 @@ Nhìn chung, sự kiện giúp em tự tin hơn trong việc áp dụng kiến t
 
 ## Ảnh sự kiện
 
-![FCAJ Community Day AI Event 1](/images/4-EventParticipated/event3-1.png)
+![FCAJ Community Day AI Event 1](/TT-AWS/images/4-EventParticipated/event3-1.png)
 
-![FCAJ Community Day AI Event 2](/images/4-EventParticipated/event3-2.png)
+![FCAJ Community Day AI Event 2](/TT-AWS/images/4-EventParticipated/event3-2.png)
 
-![FCAJ Community Day AI Event 3](/images/4-EventParticipated/event3-3.png)
+![FCAJ Community Day AI Event 3](/TT-AWS/images/4-EventParticipated/event3-3.png)

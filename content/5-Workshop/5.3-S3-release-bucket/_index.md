@@ -39,15 +39,15 @@ RoughLifeRelease/
 
 #### S3 Release Bucket Evidence
 
-![S3 release bucket](/images/5-Workshop/5.3-S3-release-bucket/02_S3_Release_Bucket.png)
+![S3 release bucket](/TT-AWS/images/5-Workshop/5.3-S3-release-bucket/02_S3_Release_Bucket.png)
 
 The image above shows the S3 bucket created to store the RoughLife release files.
 
-![S3 upload objects](/images/5-Workshop/5.3-S3-release-bucket/02_Upload.png)
+![S3 upload objects](/TT-AWS/images/5-Workshop/5.3-S3-release-bucket/02_Upload.png)
 
 The image above shows the upload process for `version.json`, `patch_manifest.json`, and the Windows client build file.
 
-![S3 client zip](/images/5-Workshop/5.3-S3-release-bucket/02_S3_Client_Zip.png)
+![S3 client zip](/TT-AWS/images/5-Workshop/5.3-S3-release-bucket/02_S3_Client_Zip.png)
 
 The image above shows the `RoughLife_Client_Window.zip` file prepared under the `builds/windows` folder. This file is the Windows client build that can be distributed to players.
 

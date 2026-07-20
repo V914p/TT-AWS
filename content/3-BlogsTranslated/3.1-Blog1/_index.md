@@ -12,7 +12,7 @@ Facebook source: [AWS Study Group Facebook permalink 2191111528320474](https://w
 
 Original AWS blog: [Online Multiplayer with Amazon GameLift and AWS serverless](https://aws.amazon.com/blogs/gametech/online-multiplayer-amazon-gamelift-aws-serverless/)
 
-![Serverless matchmaking architecture](/images/3-BlogsTranslated/blog1.png)
+![Serverless matchmaking architecture](/TT-AWS/images/3-BlogsTranslated/blog1.png)
 
 ## Overview
 

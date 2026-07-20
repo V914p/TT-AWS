@@ -31,7 +31,7 @@ In the RoughLife architecture, X-Ray is part of the observability layer together
 
 #### Lambda X-Ray Evidence
 
-![Lambda X-Ray Enabled](/images/5-Workshop/5.14-xray-trace/13_01_Lambda_XRay_Enabled.png)
+![Lambda X-Ray Enabled](/TT-AWS/images/5-Workshop/5.14-xray-trace/13_01_Lambda_XRay_Enabled.png)
 
 The image above shows that AWS X-Ray was enabled for the `RoughLifeRoomApi` Lambda function. After active tracing is enabled, Lambda can send trace data to X-Ray during request processing.
 

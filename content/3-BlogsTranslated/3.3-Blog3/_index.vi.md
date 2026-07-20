@@ -12,7 +12,7 @@ Link Facebook: [AWS Study Group Facebook permalink 2196945564403737](https://www
 
 Link blog gốc AWS: [Faster multiplayer hosting with containers on Amazon GameLift Servers](https://aws.amazon.com/blogs/gametech/faster-multiplayer-hosting-with-containers-on-amazon-gamelift-servers/)
 
-![Kiến trúc GameLift fleet với sidecar](/images/3-BlogsTranslated/blog3.png)
+![Kiến trúc GameLift fleet với sidecar](/TT-AWS/images/3-BlogsTranslated/blog3.png)
 
 ## Tổng quan
 

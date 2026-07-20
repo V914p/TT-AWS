@@ -31,7 +31,7 @@ Trong kiến trúc RoughLife, X-Ray được đặt trong lớp quan sát hệ t
 
 #### Minh chứng bật X-Ray cho Lambda
 
-![Lambda X-Ray Enabled](/images/5-Workshop/5.14-xray-trace/13_01_Lambda_XRay_Enabled.png)
+![Lambda X-Ray Enabled](/TT-AWS/images/5-Workshop/5.14-xray-trace/13_01_Lambda_XRay_Enabled.png)
 
 Hình trên thể hiện AWS X-Ray đã được bật cho Lambda function `RoughLifeRoomApi`. Khi active tracing được bật, Lambda có thể gửi dữ liệu trace đến X-Ray trong quá trình xử lý request.
 

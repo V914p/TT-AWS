@@ -40,16 +40,16 @@ pre: " <b> 1.2. </b> "
 
 ### Screenshots and Evidence:
 
-![IAM AdminGroup Permissions](/images/1-Worklog/1.2-Week2/1.PNG)
+![IAM AdminGroup Permissions](/TT-AWS/images/1-Worklog/1.2-Week2/1.PNG)
 
-![IAM User Creation - VuGiap Account](/images/1-Worklog/1.2-Week2/2.PNG)
+![IAM User Creation - VuGiap Account](/TT-AWS/images/1-Worklog/1.2-Week2/2.PNG)
 
-![AWS Console Home](/images/1-Worklog/1.2-Week2/3.PNG)
+![AWS Console Home](/TT-AWS/images/1-Worklog/1.2-Week2/3.PNG)
 
-![AdminRole Configuration](/images/1-Worklog/1.2-Week2/4.PNG)
+![AdminRole Configuration](/TT-AWS/images/1-Worklog/1.2-Week2/4.PNG)
 
-![OperatorUser Permissions](/images/1-Worklog/1.2-Week2/5.PNG)
+![OperatorUser Permissions](/TT-AWS/images/1-Worklog/1.2-Week2/5.PNG)
 
-![IAM Dashboard Overview](/images/1-Worklog/1.2-Week2/6.PNG)
+![IAM Dashboard Overview](/TT-AWS/images/1-Worklog/1.2-Week2/6.PNG)
 
 

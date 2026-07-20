@@ -56,4 +56,4 @@ Tư duy làm việc theo tài liệu cũng rất phù hợp với nhóm vì Roug
 
 ## Ảnh sự kiện
 
-![FCAJ Community Day Event](/images/4-EventParticipated/event1.png)
+![FCAJ Community Day Event](/TT-AWS/images/4-EventParticipated/event1.png)

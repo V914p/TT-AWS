@@ -49,138 +49,138 @@ pre: " <b> 1.5. </b> "
 
 #### EC2 Instances
 
-![EC2 Instance Linux](/images/1-Worklog/1.5-Week5/Lab04/EC2-Instance-Linux.PNG)
+![EC2 Instance Linux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/EC2-Instance-Linux.PNG)
 
-![EC2 Instance Window](/images/1-Worklog/1.5-Week5/Lab04/EC2-Instance-Window.PNG)
+![EC2 Instance Window](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/EC2-Instance-Window.PNG)
 
-![Linux Remote EC2](/images/1-Worklog/1.5-Week5/Lab04/Linux-Remote-EC2.PNG)
+![Linux Remote EC2](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Linux-Remote-EC2.PNG)
 
-![Window Remote EC2](/images/1-Worklog/1.5-Week5/Lab04/Window-Remote-EC2.PNG)
+![Window Remote EC2](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Window-Remote-EC2.PNG)
 
-![Window Remote EC2 2](/images/1-Worklog/1.5-Week5/Lab04/Window-Remote-EC2-2.PNG)
+![Window Remote EC2 2](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Window-Remote-EC2-2.PNG)
 
 #### VPC & Subnets
 
-![Linux VPC](/images/1-Worklog/1.5-Week5/Lab04/Linux-VPC.PNG)
+![Linux VPC](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Linux-VPC.PNG)
 
-![Window VPC](/images/1-Worklog/1.5-Week5/Lab04/Window-VPC.PNG)
+![Window VPC](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Window-VPC.PNG)
 
-![Subnet](/images/1-Worklog/1.5-Week5/Lab04/Subnet.PNG)
+![Subnet](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Subnet.PNG)
 
-![Subnet Window](/images/1-Worklog/1.5-Week5/Lab04/Subnet-Window.PNG)
+![Subnet Window](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Subnet-Window.PNG)
 
 #### Security Groups
 
-![Security Group All](/images/1-Worklog/1.5-Week5/Lab04/Security-Group-All.PNG)
+![Security Group All](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Security-Group-All.PNG)
 
-![Security Group Linux](/images/1-Worklog/1.5-Week5/Lab04/Security-Group-Linux.PNG)
+![Security Group Linux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Security-Group-Linux.PNG)
 
-![Security Group Window](/images/1-Worklog/1.5-Week5/Lab04/Security-Group-Window.PNG)
+![Security Group Window](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Security-Group-Window.PNG)
 
-![Linux Allow Rule](/images/1-Worklog/1.5-Week5/Lab04/Linux-Allow-Rule.PNG)
+![Linux Allow Rule](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Linux-Allow-Rule.PNG)
 
 #### MariaDB Setup
 
-![MariaDB PW Reset](/images/1-Worklog/1.5-Week5/Lab04/MariaDB-PWreset.PNG)
+![MariaDB PW Reset](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/MariaDB-PWreset.PNG)
 
-![PHP DB Create](/images/1-Worklog/1.5-Week5/Lab04/PHP-DBcreate.PNG)
+![PHP DB Create](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/PHP-DBcreate.PNG)
 
-![ADD DB](/images/1-Worklog/1.5-Week5/Lab04/ADD-DB.PNG)
+![ADD DB](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/ADD-DB.PNG)
 
-![DB Success Add](/images/1-Worklog/1.5-Week5/Lab04/DB-SuccessAdd.PNG)
+![DB Success Add](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/DB-SuccessAdd.PNG)
 
 #### Database Connectivity
 
-![ConnectDB OnLinux](/images/1-Worklog/1.5-Week5/Lab04/ConnectDB-OnLinux.PNG)
+![ConnectDB OnLinux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/ConnectDB-OnLinux.PNG)
 
-![ConnectDB OnLinux After](/images/1-Worklog/1.5-Week5/Lab04/ConnectDB-OnLinux-After.PNG)
+![ConnectDB OnLinux After](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/ConnectDB-OnLinux-After.PNG)
 
-![FE ADD DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-ADD-DB-Linux.PNG)
+![FE ADD DB Linux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/FE-ADD-DB-Linux.PNG)
 
-![FE DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-DB-Linux.PNG)
+![FE DB Linux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/FE-DB-Linux.PNG)
 
 #### PHP MyAdmin
 
-![PHP MyAdmin After](/images/1-Worklog/1.5-Week5/Lab04/PHP-MyAdmin-After.PNG)
+![PHP MyAdmin After](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/PHP-MyAdmin-After.PNG)
 
-![PHP Test Web](/images/1-Worklog/1.5-Week5/Lab04/PHP-TestWeb.PNG)
+![PHP Test Web](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/PHP-TestWeb.PNG)
 
-![FE HomePage DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-HomePage-DB-Linux.PNG)
+![FE HomePage DB Linux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/FE-HomePage-DB-Linux.PNG)
 
-![FE EDIT DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-EDIT-DB-Linux.PNG)
+![FE EDIT DB Linux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/FE-EDIT-DB-Linux.PNG)
 
-![FE SearchUser DB Linux](/images/1-Worklog/1.5-Week5/Lab04/FE-SearchUser-DB-Linux.PNG)
+![FE SearchUser DB Linux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/FE-SearchUser-DB-Linux.PNG)
 
-![Delete PHP File](/images/1-Worklog/1.5-Week5/Lab04/Delete-PHPFile.PNG)
+![Delete PHP File](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Delete-PHPFile.PNG)
 
 #### Node.js Setup
 
-![NPM INIT](/images/1-Worklog/1.5-Week5/Lab04/NPM-INIT.PNG)
+![NPM INIT](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/NPM-INIT.PNG)
 
-![npm local setup](/images/1-Worklog/1.5-Week5/Lab04/npm-local-settup.PNG)
+![npm local setup](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/npm-local-settup.PNG)
 
-![Nodejs Setting On Linux](/images/1-Worklog/1.5-Week5/Lab04/Nodejs-Setting-On-Linux.PNG)
+![Nodejs Setting On Linux](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Nodejs-Setting-On-Linux.PNG)
 
-![WindowInstance NodeJS Setup](/images/1-Worklog/1.5-Week5/Lab04/WindowInstance-NodeJS-Settup.PNG)
+![WindowInstance NodeJS Setup](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/WindowInstance-NodeJS-Settup.PNG)
 
-![WindowInstance NodeJS Setup Checkout](/images/1-Worklog/1.5-Week5/Lab04/WindowInstance-NodeJS-Settup-Checkout.PNG)
+![WindowInstance NodeJS Setup Checkout](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/WindowInstance-NodeJS-Settup-Checkout.PNG)
 
 #### XAMPP Setup (Windows)
 
-![XAMMP SETUP Window](/images/1-Worklog/1.5-Week5/Lab04/XAMMP-SETTUP-Window.PNG)
+![XAMMP SETUP Window](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/XAMMP-SETTUP-Window.PNG)
 
 #### Custom AMI & Snapshots
 
-![Custom AMI](/images/1-Worklog/1.5-Week5/Lab04/Custom-AMI.PNG)
+![Custom AMI](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Custom-AMI.PNG)
 
-![Instance from Custom AMI](/images/1-Worklog/1.5-Week5/Lab04/Instance-from-Custom-AMI.PNG)
+![Instance from Custom AMI](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Instance-from-Custom-AMI.PNG)
 
-![Window Snapshot](/images/1-Worklog/1.5-Week5/Lab04/Window-Snapshot.PNG)
+![Window Snapshot](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Window-Snapshot.PNG)
 
 #### Linux Environment
 
-![Linux Enabled and Setting](/images/1-Worklog/1.5-Week5/Lab04/Linux-EnabledandSetting.PNG)
+![Linux Enabled and Setting](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Linux-EnabledandSetting.PNG)
 
-![Linux Check](/images/1-Worklog/1.5-Week5/Lab04/IPV4-Linux-Check.PNG)
+![Linux Check](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/IPV4-Linux-Check.PNG)
 
-![DNS Linux Check](/images/1-Worklog/1.5-Week5/Lab04/DNS-Linux-Check.PNG)
+![DNS Linux Check](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/DNS-Linux-Check.PNG)
 
-![DNS LambServer Check](/images/1-Worklog/1.5-Week5/Lab04/DNS-LambServerCheck.PNG)
+![DNS LambServer Check](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/DNS-LambServerCheck.PNG)
 
 #### Windows Instance Management
 
-![Window Instance Change](/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change.PNG)
+![Window Instance Change](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change.PNG)
 
-![Window Instance Change 2](/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change-2.PNG)
+![Window Instance Change 2](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change-2.PNG)
 
-![Window Instance Change 3](/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change-3.PNG)
+![Window Instance Change 3](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Change-3.PNG)
 
-![Window Instance Stopped](/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Stopped.PNG)
+![Window Instance Stopped](/TT-AWS/images/1-Worklog/1.5-Week5/Lab04/Window-Instance-Stopped.PNG)
 
 ### Lab05: RDS và Setup Database
 
 #### Cấu hình VPC cho Database
 
-![VPC created](/images/1-Worklog/1.5-Week5/Lab05/VPC-created.PNG)
+![VPC created](/TT-AWS/images/1-Worklog/1.5-Week5/Lab05/VPC-created.PNG)
 
 #### Security Groups cho RDS
 
-![Security created](/images/1-Worklog/1.5-Week5/Lab05/Security-created.PNG)
+![Security created](/TT-AWS/images/1-Worklog/1.5-Week5/Lab05/Security-created.PNG)
 
-![SG RDS Created](/images/1-Worklog/1.5-Week5/Lab05/SG-RDS-Created.PNG)
+![SG RDS Created](/TT-AWS/images/1-Worklog/1.5-Week5/Lab05/SG-RDS-Created.PNG)
 
 #### RDS Database Subnet Group
 
-![DB Subnet Group](/images/1-Worklog/1.5-Week5/Lab05/DB-Subnet-Group.PNG)
+![DB Subnet Group](/TT-AWS/images/1-Worklog/1.5-Week5/Lab05/DB-Subnet-Group.PNG)
 
 #### EC2 Instance để truy cập Database
 
-![EC2 Instance Created](/images/1-Worklog/1.5-Week5/Lab05/EC2-Instance-Created.PNG)
+![EC2 Instance Created](/TT-AWS/images/1-Worklog/1.5-Week5/Lab05/EC2-Instance-Created.PNG)
 
 #### Kiểm tra Kết nối
 
-![Connect EC2 Success](/images/1-Worklog/1.5-Week5/Lab05/Connect-EC2-Success.PNG)
+![Connect EC2 Success](/TT-AWS/images/1-Worklog/1.5-Week5/Lab05/Connect-EC2-Success.PNG)
 
-![Done Setting MobaXterm](/images/1-Worklog/1.5-Week5/Lab05/Done-Setting-MobaXterm.PNG)
+![Done Setting MobaXterm](/TT-AWS/images/1-Worklog/1.5-Week5/Lab05/Done-Setting-MobaXterm.PNG)
 
 

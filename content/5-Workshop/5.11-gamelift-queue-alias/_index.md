@@ -55,15 +55,15 @@ At the time of this report, the team could not create the Fleet Alias and Game S
 
 The previous evidence shows the following issue:
 
-![GameLift fleet quota error](/images/5-Workshop/5.11-gamelift-queue-alias/10_07_GameLift_FleetQuota_Error.png)
+![GameLift fleet quota error](/TT-AWS/images/5-Workshop/5.11-gamelift-queue-alias/10_07_GameLift_FleetQuota_Error.png)
 
 AWS returned an error when creating the Managed EC2 Fleet because the current fleet limit is 0.
 
-![Service quota increase request](/images/5-Workshop/5.11-gamelift-queue-alias/10_09_ServiceQuota_Increase_Request.png)
+![Service quota increase request](/TT-AWS/images/5-Workshop/5.11-gamelift-queue-alias/10_09_ServiceQuota_Increase_Request.png)
 
 The team checked Service Quotas and prepared a quota increase request so that fleets can be created in the `ap-southeast-1` region.
 
-![GameLift Anywhere quota error](/images/5-Workshop/5.11-gamelift-queue-alias/10A_02_GameLift_FleetQuota_Error.png)
+![GameLift Anywhere quota error](/TT-AWS/images/5-Workshop/5.11-gamelift-queue-alias/10A_02_GameLift_FleetQuota_Error.png)
 
 The team also tested the GameLift Anywhere approach, but Anywhere fleet creation was also blocked by the current fleet quota limit.
 

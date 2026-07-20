@@ -30,31 +30,31 @@ For the room/session table, **Time to Live (TTL)** is enabled to automatically d
 
 #### DynamoDB Tables Evidence
 
-![DynamoDB tables](/images/5-Workshop/5.7-Dynamodb-tables/06_01.png)
+![DynamoDB tables](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_01.png)
 
 The image above shows the three DynamoDB tables created for the RoughLife system: `RoughLifeRooms`, `RoughLifePlayerSave`, and `RoughLifeMatchResult`. All tables are active and use On-demand capacity mode.
 
 #### TTL Evidence for RoughLifeRooms
 
-![DynamoDB TTL](/images/5-Workshop/5.7-Dynamodb-tables/06_02.png)
+![DynamoDB TTL](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_02.png)
 
 The image above shows that Time to Live is enabled for the `RoughLifeRooms` table with the TTL attribute `expiresAt`. This allows expired room/session data to be removed automatically.
 
 #### RoughLifeRooms Item Evidence
 
-![DynamoDB Rooms item](/images/5-Workshop/5.7-Dynamodb-tables/06_03.png)
+![DynamoDB Rooms item](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_03.png)
 
 The image above shows a sample item in the `RoughLifeRooms` table. The item includes fields such as `roomCode`, `createdAt`, `expiresAt`, `gameSessionId`, `hostPlayerId`, `maxPlayers`, `playerCount`, and `roomName`.
 
 #### RoughLifePlayerSave Item Evidence
 
-![DynamoDB PlayerSave item](/images/5-Workshop/5.7-Dynamodb-tables/06_04.png)
+![DynamoDB PlayerSave item](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_04.png)
 
 The image above shows a sample item in the `RoughLifePlayerSave` table. This table stores player-related data such as `playerId`, `displayName`, equipped weapon, selected avatar, unlocked bosses, and weapon list.
 
 #### RoughLifeMatchResult Item Evidence
 
-![DynamoDB MatchResult item](/images/5-Workshop/5.7-Dynamodb-tables/06_05.png)
+![DynamoDB MatchResult item](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_05.png)
 
 The image above shows a sample item in the `RoughLifeMatchResult` table. This table stores match result data such as `matchId`, `bossId`, `durationSeconds`, players, result, rewards, and `roomCode`.
 

@@ -31,15 +31,15 @@ The CloudFront Distribution uses the S3 bucket as its origin. Origin Access Cont
 
 #### CloudFront Distribution Evidence
 
-![CloudFront distribution](/images/5-Workshop/5.4-Cloudfront-distribution/03_CloudFront_Distribution.png)
+![CloudFront distribution](/TT-AWS/images/5-Workshop/5.4-Cloudfront-distribution/03_CloudFront_Distribution.png)
 
 The image above shows that the CloudFront Distribution was created successfully using the Free plan. The distribution provides a CloudFront domain for accessing the release files through HTTPS.
 
-![CloudFront origin](/images/5-Workshop/5.4-Cloudfront-distribution/03_CloudFront_Origin.png)
+![CloudFront origin](/TT-AWS/images/5-Workshop/5.4-Cloudfront-distribution/03_CloudFront_Origin.png)
 
 The image above shows that the CloudFront origin is connected to the RoughLife S3 release bucket. The origin type is S3 and the origin access configuration is enabled.
 
-![CloudFront check URL](/images/5-Workshop/5.4-Cloudfront-distribution/03_CheckURL.png)
+![CloudFront check URL](/TT-AWS/images/5-Workshop/5.4-Cloudfront-distribution/03_CheckURL.png)
 
 The image above shows successful testing of the CloudFront URLs. The `version.json` and `patch_manifest.json` files can be opened in the browser, and the `RoughLife_Client_Window.zip` file can be downloaded successfully.
 

@@ -56,4 +56,4 @@ This event was valuable because it combined technical knowledge with career-orie
 
 ## Event Photos
 
-![FCAJ Community Day Event](/images/4-EventParticipated/event1.png)
+![FCAJ Community Day Event](/TT-AWS/images/4-EventParticipated/event1.png)

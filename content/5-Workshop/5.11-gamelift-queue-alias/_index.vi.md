@@ -55,15 +55,15 @@ Queue giúp hệ thống có thể mở rộng tốt hơn trong tương lai. Khi
 
 Các minh chứng ở bước trước cho thấy:
 
-![GameLift fleet quota error](/images/5-Workshop/5.11-gamelift-queue-alias/10_07_GameLift_FleetQuota_Error.png)
+![GameLift fleet quota error](/TT-AWS/images/5-Workshop/5.11-gamelift-queue-alias/10_07_GameLift_FleetQuota_Error.png)
 
 AWS báo lỗi khi tạo Managed EC2 Fleet vì giới hạn fleet hiện tại bằng 0.
 
-![Service quota increase request](/images/5-Workshop/5.11-gamelift-queue-alias/10_09_ServiceQuota_Increase_Request.png)
+![Service quota increase request](/TT-AWS/images/5-Workshop/5.11-gamelift-queue-alias/10_09_ServiceQuota_Increase_Request.png)
 
 Nhóm đã kiểm tra Service Quotas và gửi request tăng quota để có thể tạo fleet trong region `ap-southeast-1`.
 
-![GameLift Anywhere quota error](/images/5-Workshop/5.11-gamelift-queue-alias/10A_02_GameLift_FleetQuota_Error.png)
+![GameLift Anywhere quota error](/TT-AWS/images/5-Workshop/5.11-gamelift-queue-alias/10A_02_GameLift_FleetQuota_Error.png)
 
 Nhóm cũng thử phương án GameLift Anywhere, nhưng việc tạo Anywhere fleet cũng bị chặn bởi giới hạn fleet hiện tại.
 

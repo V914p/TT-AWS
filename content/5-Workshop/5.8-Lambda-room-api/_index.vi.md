@@ -38,7 +38,7 @@ Trong phiên bản minh chứng này, Lambda sử dụng mock server address và
 
 #### Minh chứng Lambda Function
 
-![Lambda overview](/images/5-Workshop/5.8-Lambda-room-api/07_01_Lambda_Overview.png)
+![Lambda overview](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_01_Lambda_Overview.png)
 
 Hình trên thể hiện Lambda function `RoughLifeRoomApi` đã được tạo thành công. Đây là backend serverless chính dùng để xử lý các request liên quan đến room, player save và match result.
 
@@ -46,7 +46,7 @@ Hình trên thể hiện Lambda function `RoughLifeRoomApi` đã được tạo 
 
 #### Minh chứng code và test event
 
-![Lambda code test](/images/5-Workshop/5.8-Lambda-room-api/07_02_Lambda_Code_Test.png)
+![Lambda code test](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_02_Lambda_Code_Test.png)
 
 Hình trên thể hiện phần code source của Lambda function và khu vực tạo test event. Lambda được viết để nhận request dạng JSON, xử lý action tương ứng và trả về response cho client hoặc API Gateway.
 
@@ -54,7 +54,7 @@ Hình trên thể hiện phần code source của Lambda function và khu vực 
 
 #### Minh chứng Environment Variables
 
-![Lambda environment variables](/images/5-Workshop/5.8-Lambda-room-api/07_03_Lambda_Environment.png)
+![Lambda environment variables](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_03_Lambda_Environment.png)
 
 Hình trên thể hiện các Environment Variables được cấu hình cho Lambda, bao gồm:
 
@@ -72,7 +72,7 @@ Việc dùng Environment Variables giúp Lambda linh hoạt hơn, có thể thay
 
 #### Minh chứng IAM Permission cho DynamoDB
 
-![Lambda DynamoDB permission](/images/5-Workshop/5.8-Lambda-room-api/07_04_Lambda_IAM_DynamoDB_Permission.png)
+![Lambda DynamoDB permission](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_04_Lambda_IAM_DynamoDB_Permission.png)
 
 Hình trên thể hiện IAM Role của Lambda đã được gán policy để truy cập DynamoDB. Quyền này cho phép Lambda ghi dữ liệu vào các bảng `RoughLifeRooms`, `RoughLifePlayerSave` và `RoughLifeMatchResult`.
 
@@ -80,11 +80,11 @@ Hình trên thể hiện IAM Role của Lambda đã được gán policy để t
 
 #### Test chức năng tạo phòng
 
-![Lambda create room test](/images/5-Workshop/5.8-Lambda-room-api/07_05_Lambda_Test_CreateRoom.png)
+![Lambda create room test](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_05_Lambda_Test_CreateRoom.png)
 
 Hình trên thể hiện kết quả test action tạo phòng trên Lambda. Response trả về có `ok: true`, thông tin `roomCode`, `roomName`, `hostName`, `serverAddress`, `serverPort`, `playerCount`, `maxPlayers` và danh sách member trong phòng.
 
-![DynamoDB room created](/images/5-Workshop/5.8-Lambda-room-api/07_06_DynamoDB_Room_Created.png)
+![DynamoDB room created](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_06_DynamoDB_Room_Created.png)
 
 Hình trên thể hiện dữ liệu phòng đã được ghi thành công vào bảng `RoughLifeRooms`. Điều này chứng minh Lambda có thể tạo room và lưu trạng thái phòng vào DynamoDB.
 
@@ -92,11 +92,11 @@ Hình trên thể hiện dữ liệu phòng đã được ghi thành công vào 
 
 #### Test chức năng lưu Player Save
 
-![Lambda player save API](/images/5-Workshop/5.8-Lambda-room-api/07_07_01_Lambda_PlayerSave_API.png)
+![Lambda player save API](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_07_01_Lambda_PlayerSave_API.png)
 
 Hình trên thể hiện Lambda test cho chức năng lưu dữ liệu người chơi. Response trả về cho biết player save đã được cập nhật thành công.
 
-![DynamoDB player save result](/images/5-Workshop/5.8-Lambda-room-api/07_07_02_DynamoDB_PlayerSave_Result.png)
+![DynamoDB player save result](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_07_02_DynamoDB_PlayerSave_Result.png)
 
 Hình trên thể hiện dữ liệu người chơi đã được lưu vào bảng `RoughLifePlayerSave`. Item bao gồm các thông tin như `playerId`, `displayName`, `lastEquippedWeapon`, `selectedAvatar`, `unlockedBosses`, `playerStats` và thời gian cập nhật.
 
@@ -104,11 +104,11 @@ Hình trên thể hiện dữ liệu người chơi đã được lưu vào bả
 
 #### Test chức năng lưu Match Result
 
-![Lambda match result API](/images/5-Workshop/5.8-Lambda-room-api/07_08_01_Lambda_MatchResult_API.png)
+![Lambda match result API](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_08_01_Lambda_MatchResult_API.png)
 
 Hình trên thể hiện Lambda test cho chức năng lưu kết quả trận đấu. Response trả về cho biết match result đã được lưu thành công.
 
-![DynamoDB match result](/images/5-Workshop/5.8-Lambda-room-api/07_08_02_DynamoDB_MatchResult_Result.png)
+![DynamoDB match result](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_08_02_DynamoDB_MatchResult_Result.png)
 
 Hình trên thể hiện dữ liệu kết quả trận đấu đã được ghi vào bảng `RoughLifeMatchResult`. Dữ liệu bao gồm `matchId`, `roomCode`, `bossId`, `result`, `durationSeconds`, danh sách player và phần thưởng.
 

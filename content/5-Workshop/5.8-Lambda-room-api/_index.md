@@ -38,7 +38,7 @@ In this evidence setup, the Lambda function uses a mock server address and mock 
 
 #### Lambda Function Evidence
 
-![Lambda overview](/images/5-Workshop/5.8-Lambda-room-api/07_01_Lambda_Overview.png)
+![Lambda overview](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_01_Lambda_Overview.png)
 
 The image above shows that the `RoughLifeRoomApi` Lambda function was created successfully. This function acts as the main serverless backend for room, player save, and match result requests.
 
@@ -46,7 +46,7 @@ The image above shows that the `RoughLifeRoomApi` Lambda function was created su
 
 #### Code and Test Event Evidence
 
-![Lambda code test](/images/5-Workshop/5.8-Lambda-room-api/07_02_Lambda_Code_Test.png)
+![Lambda code test](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_02_Lambda_Code_Test.png)
 
 The image above shows the Lambda source code and the test event configuration area. The function receives JSON requests, processes the selected action, and returns a response to the client or API Gateway.
 
@@ -54,7 +54,7 @@ The image above shows the Lambda source code and the test event configuration ar
 
 #### Environment Variables Evidence
 
-![Lambda environment variables](/images/5-Workshop/5.8-Lambda-room-api/07_03_Lambda_Environment.png)
+![Lambda environment variables](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_03_Lambda_Environment.png)
 
 The image above shows the Environment Variables configured for the Lambda function, including:
 
@@ -72,7 +72,7 @@ Environment Variables make the function more flexible because table names and se
 
 #### DynamoDB IAM Permission Evidence
 
-![Lambda DynamoDB permission](/images/5-Workshop/5.8-Lambda-room-api/07_04_Lambda_IAM_DynamoDB_Permission.png)
+![Lambda DynamoDB permission](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_04_Lambda_IAM_DynamoDB_Permission.png)
 
 The image above shows that the Lambda IAM Role has been granted permissions to access DynamoDB. These permissions allow the Lambda function to write data into `RoughLifeRooms`, `RoughLifePlayerSave`, and `RoughLifeMatchResult`.
 
@@ -80,11 +80,11 @@ The image above shows that the Lambda IAM Role has been granted permissions to a
 
 #### Create Room Test
 
-![Lambda create room test](/images/5-Workshop/5.8-Lambda-room-api/07_05_Lambda_Test_CreateRoom.png)
+![Lambda create room test](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_05_Lambda_Test_CreateRoom.png)
 
 The image above shows the Lambda test result for the create room action. The response includes `ok: true`, `roomCode`, `roomName`, `hostName`, `serverAddress`, `serverPort`, `playerCount`, `maxPlayers`, and room member data.
 
-![DynamoDB room created](/images/5-Workshop/5.8-Lambda-room-api/07_06_DynamoDB_Room_Created.png)
+![DynamoDB room created](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_06_DynamoDB_Room_Created.png)
 
 The image above shows that the room data was successfully written to the `RoughLifeRooms` table. This proves that Lambda can create a room and store its state in DynamoDB.
 
@@ -92,11 +92,11 @@ The image above shows that the room data was successfully written to the `RoughL
 
 #### Player Save Test
 
-![Lambda player save API](/images/5-Workshop/5.8-Lambda-room-api/07_07_01_Lambda_PlayerSave_API.png)
+![Lambda player save API](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_07_01_Lambda_PlayerSave_API.png)
 
 The image above shows the Lambda test for saving player data. The response confirms that the player save data was updated successfully.
 
-![DynamoDB player save result](/images/5-Workshop/5.8-Lambda-room-api/07_07_02_DynamoDB_PlayerSave_Result.png)
+![DynamoDB player save result](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_07_02_DynamoDB_PlayerSave_Result.png)
 
 The image above shows that player data was stored in the `RoughLifePlayerSave` table. The item includes fields such as `playerId`, `displayName`, `lastEquippedWeapon`, `selectedAvatar`, `unlockedBosses`, `playerStats`, and update time.
 
@@ -104,11 +104,11 @@ The image above shows that player data was stored in the `RoughLifePlayerSave` t
 
 #### Match Result Test
 
-![Lambda match result API](/images/5-Workshop/5.8-Lambda-room-api/07_08_01_Lambda_MatchResult_API.png)
+![Lambda match result API](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_08_01_Lambda_MatchResult_API.png)
 
 The image above shows the Lambda test for saving match result data. The response confirms that the match result was saved successfully.
 
-![DynamoDB match result](/images/5-Workshop/5.8-Lambda-room-api/07_08_02_DynamoDB_MatchResult_Result.png)
+![DynamoDB match result](/TT-AWS/images/5-Workshop/5.8-Lambda-room-api/07_08_02_DynamoDB_MatchResult_Result.png)
 
 The image above shows that match result data was written into the `RoughLifeMatchResult` table. The data includes `matchId`, `roomCode`, `bossId`, `result`, `durationSeconds`, players, and rewards.
 

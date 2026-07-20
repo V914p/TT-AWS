@@ -37,7 +37,7 @@ At the edge layer, the Unity client sends HTTPS requests through AWS WAF and Ama
 
 In the database layer, DynamoDB stores room/session data, player save data, and match results. In the game server layer, GameLift uses a Game Session Queue and Managed Fleet Alias to place sessions on available fleet capacity. Each server process can host a game room, report metrics, save final state, and write match results back to DynamoDB.
 
-![RoughLife AWS GameLift Online Multiplayer Architecture](/images/2-Proposal/image.png)
+![RoughLife AWS GameLift Online Multiplayer Architecture](/TT-AWS/images/2-Proposal/image.png)
 
 ### Main Request Flow
 1. The Unity client sends HTTPS requests through AWS WAF and CloudFront.
@@ -161,9 +161,9 @@ The solution establishes a foundational resource for lab members to develop a la
 ### 3. Solution Architecture
 The platform employs a serverless AWS architecture to manage data from 5 Raspberry Pi-based stations, scalable to 15. Data is ingested via AWS IoT Core, stored in an S3 data lake, and processed by AWS Glue Crawlers and ETL jobs to transform and load it into another S3 bucket for analysis. Lambda and API Gateway handle additional processing, while Amplify with Next.js hosts the dashboard, secured by Cognito. The architecture is detailed below:
 
-![IoT Weather Station Architecture](/images/2-Proposal/edge_architecture.jpeg)
+![IoT Weather Station Architecture](/TT-AWS/images/2-Proposal/edge_architecture.jpeg)
 
-![IoT Weather Platform Architecture](/images/2-Proposal/platform_architecture.jpeg)
+![IoT Weather Platform Architecture](/TT-AWS/images/2-Proposal/platform_architecture.jpeg)
 
 ### AWS Services Used
 - **AWS IoT Core**: Ingests MQTT data from 5 stations, scalable to 15.

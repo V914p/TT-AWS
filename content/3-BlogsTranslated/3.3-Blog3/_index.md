@@ -12,7 +12,7 @@ Facebook source: [AWS Study Group Facebook permalink 2196945564403737](https://w
 
 Original AWS blog: [Faster multiplayer hosting with containers on Amazon GameLift Servers](https://aws.amazon.com/blogs/gametech/faster-multiplayer-hosting-with-containers-on-amazon-gamelift-servers/)
 
-![GameLift fleet with sidecar architecture](/images/3-BlogsTranslated/blog3.png)
+![GameLift fleet with sidecar architecture](/TT-AWS/images/3-BlogsTranslated/blog3.png)
 
 ## Overview
 

@@ -35,7 +35,7 @@ Các thành phần chính trong bước này gồm:
 
 #### Minh chứng tạo SNS Topic
 
-![SNS Topic Created](/images/5-Workshop/5.13-sns-admin-alert/12_01_SNS_Topic_Created.png)
+![SNS Topic Created](/TT-AWS/images/5-Workshop/5.13-sns-admin-alert/12_01_SNS_Topic_Created.png)
 
 Hình trên thể hiện SNS Topic đã được tạo thành công. Topic này đóng vai trò là kênh nhận cảnh báo từ CloudWatch và phân phối thông báo đến email admin.
 
@@ -43,7 +43,7 @@ Hình trên thể hiện SNS Topic đã được tạo thành công. Topic này 
 
 #### Minh chứng xác nhận Email Subscription
 
-![SNS Email Subscription Confirmed](/images/5-Workshop/5.13-sns-admin-alert/12_02_SNS_Email_Subscription_Confirmed.png)
+![SNS Email Subscription Confirmed](/TT-AWS/images/5-Workshop/5.13-sns-admin-alert/12_02_SNS_Email_Subscription_Confirmed.png)
 
 Hình trên thể hiện email subscription đã được xác nhận. Sau khi trạng thái subscription được xác nhận, SNS có thể gửi email cảnh báo đến người quản trị.
 
@@ -51,7 +51,7 @@ Hình trên thể hiện email subscription đã được xác nhận. Sau khi t
 
 #### Minh chứng CloudWatch Alarm gửi cảnh báo đến SNS
 
-![CloudWatch Alarm SNS Action](/images/5-Workshop/5.13-sns-admin-alert/12_03_CloudWatch_Alarm_SNS_Action.png)
+![CloudWatch Alarm SNS Action](/TT-AWS/images/5-Workshop/5.13-sns-admin-alert/12_03_CloudWatch_Alarm_SNS_Action.png)
 
 Hình trên thể hiện CloudWatch Alarm đã được cấu hình action để gửi thông báo đến SNS Topic. Khi điều kiện alarm xảy ra, CloudWatch sẽ kích hoạt SNS để gửi email cảnh báo.
 
@@ -66,7 +66,7 @@ Trong hệ thống RoughLife, Alarm có thể được dùng để theo dõi cá
 
 #### Minh chứng email cảnh báo
 
-![SNS Test Email](/images/5-Workshop/5.13-sns-admin-alert/12_04_SNS_Test_Email.png)
+![SNS Test Email](/TT-AWS/images/5-Workshop/5.13-sns-admin-alert/12_04_SNS_Test_Email.png)
 
 Hình trên thể hiện email cảnh báo đã được gửi thành công đến admin. Đây là minh chứng cho thấy hệ thống cảnh báo vận hành đã hoạt động.
 

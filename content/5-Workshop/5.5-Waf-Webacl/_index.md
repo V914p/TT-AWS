@@ -24,11 +24,11 @@ For the RoughLife evidence setup, AWS WAF is attached to the CloudFront Distribu
 
 #### AWS WAF Evidence
 
-![WAF CloudFront security](/images/5-Workshop/5.5-Waf-Webacl/04_WAF_CloudFront_Security.png)
+![WAF CloudFront security](/TT-AWS/images/5-Workshop/5.5-Waf-Webacl/04_WAF_CloudFront_Security.png)
 
 The image above shows the Security section of the CloudFront Distribution. Core protections are enabled to protect the CloudFront distribution from common web threats.
 
-![WAF Web ACL](/images/5-Workshop/5.5-Waf-Webacl/04_WAF_WebACL.png)
+![WAF Web ACL](/TT-AWS/images/5-Workshop/5.5-Waf-Webacl/04_WAF_WebACL.png)
 
 The image above shows the created Web ACL in AWS WAF. The Web ACL is associated with the CloudFront Distribution and includes basic protection rules.
 

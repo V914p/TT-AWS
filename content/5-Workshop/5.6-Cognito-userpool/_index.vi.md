@@ -29,7 +29,7 @@ Trong bước này, nhóm tạo **Amazon Cognito User Pool** để chuẩn bị 
 
 #### Minh chứng Cognito User Pool
 
-![Cognito user pool](/images/5-Workshop/5.6-Cognito-userpool/05_Cognito_UserPool.png)
+![Cognito user pool](/TT-AWS/images/5-Workshop/5.6-Cognito-userpool/05_Cognito_UserPool.png)
 
 Hình trên thể hiện Cognito User Pool đã được tạo thành công ở region Asia Pacific Singapore. User Pool này là nền tảng để triển khai login/JWT cho người chơi trong các bước phát triển tiếp theo.
 

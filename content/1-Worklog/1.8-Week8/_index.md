@@ -42,178 +42,178 @@ pre: " <b> 1.8. </b> "
 
 #### Lab 7: AWS Budget
 
-![Budget Create](/images/1-Worklog/1.8-Week8/Lab07/Budget-Create.PNG)
+![Budget Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab07/Budget-Create.PNG)
 
-![Budget History](/images/1-Worklog/1.8-Week8/Lab07/Budget-History.PNG)
+![Budget History](/TT-AWS/images/1-Worklog/1.8-Week8/Lab07/Budget-History.PNG)
 
-![Budget Alerts](/images/1-Worklog/1.8-Week8/Lab07/Butget-Alerts.PNG)
+![Budget Alerts](/TT-AWS/images/1-Worklog/1.8-Week8/Lab07/Butget-Alerts.PNG)
 
-![Cost Budget Create](/images/1-Worklog/1.8-Week8/Lab07/Cost-Budget-Create.PNG)
+![Cost Budget Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab07/Cost-Budget-Create.PNG)
 
-![RI Budget Create](/images/1-Worklog/1.8-Week8/Lab07/RIBudget-Create.PNG)
+![RI Budget Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab07/RIBudget-Create.PNG)
 
-![Saving Plans Budget Create](/images/1-Worklog/1.8-Week8/Lab07/SavingPlansBudget-Create.PNG)
+![Saving Plans Budget Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab07/SavingPlansBudget-Create.PNG)
 
-![Usage Budget Create](/images/1-Worklog/1.8-Week8/Lab07/Usage-Budget-Create.PNG)
+![Usage Budget Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab07/Usage-Budget-Create.PNG)
 
-![Usage Budget History](/images/1-Worklog/1.8-Week8/Lab07/Usage-Budget-History.PNG)
+![Usage Budget History](/TT-AWS/images/1-Worklog/1.8-Week8/Lab07/Usage-Budget-History.PNG)
 
 #### Lab 8: AWS CloudWatch
 
-![Math Search](/images/1-Worklog/1.8-Week8/Lab08/Math-Search.PNG)
+![Math Search](/TT-AWS/images/1-Worklog/1.8-Week8/Lab08/Math-Search.PNG)
 
-![Search Test](/images/1-Worklog/1.8-Week8/Lab08/Search-Test.png)
+![Search Test](/TT-AWS/images/1-Worklog/1.8-Week8/Lab08/Search-Test.png)
 
-![Stack Create](/images/1-Worklog/1.8-Week8/Lab08/Stack-Crate.PNG)
+![Stack Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab08/Stack-Crate.PNG)
 
-![Watch Metric](/images/1-Worklog/1.8-Week8/Lab08/Watch-Mertric.PNG)
+![Watch Metric](/TT-AWS/images/1-Worklog/1.8-Week8/Lab08/Watch-Mertric.PNG)
 
 #### Lab 9: AWS Support
 
-![Support Case Create](/images/1-Worklog/1.8-Week8/Lab09/Case-Create.PNG)
+![Support Case Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab09/Case-Create.PNG)
 
 #### Lab 11: AWS CLI & Resource Groups
 
-![IAM Group Access Key](/images/1-Worklog/1.8-Week8/Lab11/AIM-Group-AccessKey.PNG)
+![IAM Group Access Key](/TT-AWS/images/1-Worklog/1.8-Week8/Lab11/AIM-Group-AccessKey.PNG)
 
-![Bucket Create Delete](/images/1-Worklog/1.8-Week8/Lab11/Bucket-Create-Delete.PNG)
+![Bucket Create Delete](/TT-AWS/images/1-Worklog/1.8-Week8/Lab11/Bucket-Create-Delete.PNG)
 
-![Describe Instances](/images/1-Worklog/1.8-Week8/Lab11/Describe-Intances.PNG)
+![Describe Instances](/TT-AWS/images/1-Worklog/1.8-Week8/Lab11/Describe-Intances.PNG)
 
-![Instance Created](/images/1-Worklog/1.8-Week8/Lab11/Instance-Created.PNG)
+![Instance Created](/TT-AWS/images/1-Worklog/1.8-Week8/Lab11/Instance-Created.PNG)
 
-![Instance Terminated](/images/1-Worklog/1.8-Week8/Lab11/Instance-Terminated.PNG)
+![Instance Terminated](/TT-AWS/images/1-Worklog/1.8-Week8/Lab11/Instance-Terminated.PNG)
 
-![SNS Test](/images/1-Worklog/1.8-Week8/Lab11/SNS-Test.PNG)
+![SNS Test](/TT-AWS/images/1-Worklog/1.8-Week8/Lab11/SNS-Test.PNG)
 
-![VPC](/images/1-Worklog/1.8-Week8/Lab11/VPC.PNG)
+![VPC](/TT-AWS/images/1-Worklog/1.8-Week8/Lab11/VPC.PNG)
 
 #### Lab 22: EC2 Cost Optimization with Lambda
 
-![EC2 Instance Create](/images/1-Worklog/1.8-Week8/Lab22/EC2-Instance-Create.PNG)
+![EC2 Instance Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/EC2-Instance-Create.PNG)
 
-![EC2 Instance Tags](/images/1-Worklog/1.8-Week8/Lab22/EC2-Instance-Tags.PNG)
+![EC2 Instance Tags](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/EC2-Instance-Tags.PNG)
 
-![Function Start](/images/1-Worklog/1.8-Week8/Lab22/Function-Start.PNG)
+![Function Start](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Function-Start.PNG)
 
-![Function Stop](/images/1-Worklog/1.8-Week8/Lab22/Function-Stop.PNG)
+![Function Stop](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Function-Stop.PNG)
 
-![Instance Test Stop](/images/1-Worklog/1.8-Week8/Lab22/Instance-Test-Stop.PNG)
+![Instance Test Stop](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Instance-Test-Stop.PNG)
 
-![Role Create Lambda](/images/1-Worklog/1.8-Week8/Lab22/Role-Create-Lambda.PNG)
+![Role Create Lambda](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Role-Create-Lambda.PNG)
 
-![Rule Create Start](/images/1-Worklog/1.8-Week8/Lab22/Rule-Create-Start.PNG)
+![Rule Create Start](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Rule-Create-Start.PNG)
 
-![Rule Create](/images/1-Worklog/1.8-Week8/Lab22/Rule-Create.PNG)
+![Rule Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Rule-Create.PNG)
 
-![Security Group Create](/images/1-Worklog/1.8-Week8/Lab22/Security-Group-Create.PNG)
+![Security Group Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Security-Group-Create.PNG)
 
-![Slack Create](/images/1-Worklog/1.8-Week8/Lab22/Slack-Create.PNG)
+![Slack Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Slack-Create.PNG)
 
-![Test Start Slack](/images/1-Worklog/1.8-Week8/Lab22/Test-Start-Slack.PNG)
+![Test Start Slack](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Test-Start-Slack.PNG)
 
-![Test Start](/images/1-Worklog/1.8-Week8/Lab22/Test-Start.PNG)
+![Test Start](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Test-Start.PNG)
 
-![Test Stop Slack](/images/1-Worklog/1.8-Week8/Lab22/Test-Stop-Slack.PNG)
+![Test Stop Slack](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Test-Stop-Slack.PNG)
 
-![Test Stop](/images/1-Worklog/1.8-Week8/Lab22/Test-Stop.PNG)
+![Test Stop](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/Test-Stop.PNG)
 
-![VPC Create](/images/1-Worklog/1.8-Week8/Lab22/VPC-Create.PNG)
+![VPC Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab22/VPC-Create.PNG)
 
 #### Lab 27: AWS CLI & Resource Tags
 
-![Add Tag Instance](/images/1-Worklog/1.8-Week8/Lab27/Add-Tag-Instance.PNG)
+![Add Tag Instance](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/Add-Tag-Instance.PNG)
 
-![CLI Filters](/images/1-Worklog/1.8-Week8/Lab27/CLI-Filters.PNG)
+![CLI Filters](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/CLI-Filters.PNG)
 
-![CLI Instance Create](/images/1-Worklog/1.8-Week8/Lab27/CLI-Instance-Create.PNG)
+![CLI Instance Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/CLI-Instance-Create.PNG)
 
-![CLI Tag](/images/1-Worklog/1.8-Week8/Lab27/CLI-Tag.PNG)
+![CLI Tag](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/CLI-Tag.PNG)
 
-![CLI Volume Create](/images/1-Worklog/1.8-Week8/Lab27/CLI-Volume-Create.PNG)
+![CLI Volume Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/CLI-Volume-Create.PNG)
 
-![EC2 Instance Create 2](/images/1-Worklog/1.8-Week8/Lab27/EC2-Instance-Create-2.PNG)
+![EC2 Instance Create 2](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/EC2-Instance-Create-2.PNG)
 
-![EC2 Instance Create](/images/1-Worklog/1.8-Week8/Lab27/EC2-Instance-Create.PNG)
+![EC2 Instance Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/EC2-Instance-Create.PNG)
 
-![Filter Tag](/images/1-Worklog/1.8-Week8/Lab27/Filter-Tag.PNG)
+![Filter Tag](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/Filter-Tag.PNG)
 
-![Resource Group](/images/1-Worklog/1.8-Week8/Lab27/Resource-Group.PNG)
+![Resource Group](/TT-AWS/images/1-Worklog/1.8-Week8/Lab27/Resource-Group.PNG)
 
 #### Lab 28: IAM Permission Boundary
 
-![EC2 Group Policy Create](/images/1-Worklog/1.8-Week8/Lab28/EC2-GroupPolicy-Create.PNG)
+![EC2 Group Policy Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/EC2-GroupPolicy-Create.PNG)
 
-![EC2 Instance Launch Failed](/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Launche-Failed.PNG)
+![EC2 Instance Launch Failed](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Launche-Failed.PNG)
 
-![EC2 Instance Launch Succeed](/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Launche-Succed.PNG)
+![EC2 Instance Launch Succeed](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Launche-Succed.PNG)
 
-![EC2 Instance Terminated](/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Terminated.PNG)
+![EC2 Instance Terminated](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/EC2-Instance-Terminated.PNG)
 
-![EC2 Test NVirginia](/images/1-Worklog/1.8-Week8/Lab28/EC2-Test-NVirginia.PNG)
+![EC2 Test NVirginia](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/EC2-Test-NVirginia.PNG)
 
-![EC2 Test Tokyo](/images/1-Worklog/1.8-Week8/Lab28/EC2-Test-Tokyo.PNG)
+![EC2 Test Tokyo](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/EC2-Test-Tokyo.PNG)
 
-![IAM Role](/images/1-Worklog/1.8-Week8/Lab28/IAM-Role.PNG)
+![IAM Role](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/IAM-Role.PNG)
 
-![Resource Tag Fail](/images/1-Worklog/1.8-Week8/Lab28/Resource-Tag-Fail.PNG)
+![Resource Tag Fail](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/Resource-Tag-Fail.PNG)
 
-![Switch Role](/images/1-Worklog/1.8-Week8/Lab28/Switch-Role.PNG)
+![Switch Role](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/Switch-Role.PNG)
 
-![User Admin Group](/images/1-Worklog/1.8-Week8/Lab28/User-Admin-Group.PNG)
+![User Admin Group](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/User-Admin-Group.PNG)
 
-![User Admin](/images/1-Worklog/1.8-Week8/Lab28/User-Admin.PNG)
+![User Admin](/TT-AWS/images/1-Worklog/1.8-Week8/Lab28/User-Admin.PNG)
 
 #### Lab 30: IAM Access Control by Region
 
-![IAM Create](/images/1-Worklog/1.8-Week8/Lab30/IAM-Create.PNG)
+![IAM Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab30/IAM-Create.PNG)
 
-![IAM User Create](/images/1-Worklog/1.8-Week8/Lab30/IAM-User-Create.PNG)
+![IAM User Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab30/IAM-User-Create.PNG)
 
-![User Test Sign Sydney](/images/1-Worklog/1.8-Week8/Lab30/User-Test-Sing.PNG)
+![User Test Sign Sydney](/TT-AWS/images/1-Worklog/1.8-Week8/Lab30/User-Test-Sing.PNG)
 
-![User Test Sydney](/images/1-Worklog/1.8-Week8/Lab30/User-Test-Sydney.PNG)
+![User Test Sydney](/TT-AWS/images/1-Worklog/1.8-Week8/Lab30/User-Test-Sydney.PNG)
 
 #### Lab 44: IAM Condition with Date
 
-![IAM Group Create](/images/1-Worklog/1.8-Week8/Lab44/IAM-Group-Create.PNG)
+![IAM Group Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/IAM-Group-Create.PNG)
 
-![EC2 Admin Test](/images/1-Worklog/1.8-Week8/Lab44/EC2-admin-Test.PNG)
+![EC2 Admin Test](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/EC2-admin-Test.PNG)
 
-![EC2 RDS Test](/images/1-Worklog/1.8-Week8/Lab44/EC2-RDS-Test.PNG)
+![EC2 RDS Test](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/EC2-RDS-Test.PNG)
 
-![Group Test EC2](/images/1-Worklog/1.8-Week8/Lab44/Group-Test-EC2.PNG)
+![Group Test EC2](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/Group-Test-EC2.PNG)
 
-![Group Test RDS](/images/1-Worklog/1.8-Week8/Lab44/Group-Test-RDS.PNG)
+![Group Test RDS](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/Group-Test-RDS.PNG)
 
-![Lab 44 Role Create](/images/1-Worklog/1.8-Week8/Lab44/Lab44-Role-Create.PNG)
+![Lab 44 Role Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/Lab44-Role-Create.PNG)
 
-![IP Permission Switch Role](/images/1-Worklog/1.8-Week8/Lab44/Ip-Permisstion-SwitchRole.PNG)
+![IP Permission Switch Role](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/Ip-Permisstion-SwitchRole.PNG)
 
-![IP Permission](/images/1-Worklog/1.8-Week8/Lab44/Ip-Permisstion.PNG)
+![IP Permission](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/Ip-Permisstion.PNG)
 
-![No Permission User Test Update Role](/images/1-Worklog/1.8-Week8/Lab44/NoPermission-Test-UpdateRole.PNG)
+![No Permission User Test Update Role](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/NoPermission-Test-UpdateRole.PNG)
 
-![No Permission Test](/images/1-Worklog/1.8-Week8/Lab44/NoPermission-Test.PNG)
+![No Permission Test](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/NoPermission-Test.PNG)
 
-![Time Update Test](/images/1-Worklog/1.8-Week8/Lab44/Time-Update-Test.PNG)
+![Time Update Test](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/Time-Update-Test.PNG)
 
-![Time Update](/images/1-Worklog/1.8-Week8/Lab44/Time-Update.PNG)
+![Time Update](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/Time-Update.PNG)
 
-![User Create](/images/1-Worklog/1.8-Week8/Lab44/User-Create.PNG)
+![User Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab44/User-Create.PNG)
 
 #### Lab 48: IAM Role for Applications
 
-![EC2 Create](/images/1-Worklog/1.8-Week8/Lab48/EC2-Create.PNG)
+![EC2 Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab48/EC2-Create.PNG)
 
-![IAM Create](/images/1-Worklog/1.8-Week8/Lab48/IAM-Create.PNG)
+![IAM Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab48/IAM-Create.PNG)
 
-![Role Upload File](/images/1-Worklog/1.8-Week8/Lab48/Role-Upload-File.PNG)
+![Role Upload File](/TT-AWS/images/1-Worklog/1.8-Week8/Lab48/Role-Upload-File.PNG)
 
-![S3 Create](/images/1-Worklog/1.8-Week8/Lab48/S3-Create.PNG)
+![S3 Create](/TT-AWS/images/1-Worklog/1.8-Week8/Lab48/S3-Create.PNG)
 
-![S3 List](/images/1-Worklog/1.8-Week8/Lab48/S3-List.PNG)
+![S3 List](/TT-AWS/images/1-Worklog/1.8-Week8/Lab48/S3-List.PNG)
 
-![Upload File S3](/images/1-Worklog/1.8-Week8/Lab48/Upload-File-S3.PNG)
+![Upload File S3](/TT-AWS/images/1-Worklog/1.8-Week8/Lab48/Upload-File-S3.PNG)
 
 

@@ -25,7 +25,7 @@ During implementation, the team successfully uploaded the server build and the b
 
 #### Amazon GameLift Server SDK Integration in Unity
 
-![Amazon GameLift SDK Unity](/images/5-Workshop/5.10-gamelift-build-fleet/Setup_AWSSDK_Unity.PNG)
+![Amazon GameLift SDK Unity](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/Setup_AWSSDK_Unity.PNG)
 
 The image above shows that the **Amazon GameLift Server SDK** package was imported into the Unity project. This is required for the dedicated server to communicate with GameLift, report server process status, and receive game session activations.
 
@@ -33,7 +33,7 @@ The image above shows that the **Amazon GameLift Server SDK** package was import
 
 #### Uploading the Server Build to GameLift
 
-![GameLift upload build CLI](/images/5-Workshop/5.10-gamelift-build-fleet/10_01_GameLift_UploadBuild_CLI.png)
+![GameLift upload build CLI](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_01_GameLift_UploadBuild_CLI.png)
 
 The image above shows that the team used AWS CLI to upload the dedicated server build to Amazon GameLift.
 
@@ -51,7 +51,7 @@ After the upload completed successfully, AWS returned a Build ID. This proves th
 
 #### Build Status Verification
 
-![GameLift build ready](/images/5-Workshop/5.10-gamelift-build-fleet/10_02_GameLift_Build_READY.png)
+![GameLift build ready](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_02_GameLift_Build_READY.png)
 
 The image above shows that the `RoughLifeServer` build reached the **Ready** status. This confirms that Amazon GameLift successfully received and processed the server build.
 
@@ -59,7 +59,7 @@ The image above shows that the `RoughLifeServer` build reached the **Ready** sta
 
 #### Managed EC2 Fleet Configuration
 
-![GameLift create fleet build selected](/images/5-Workshop/5.10-gamelift-build-fleet/10_03_GameLift_CreateFleet_BuildSelected.png)
+![GameLift create fleet build selected](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_03_GameLift_CreateFleet_BuildSelected.png)
 
 The image above shows the Managed EC2 Fleet creation step. The team selected **Build** as the binary type and selected the uploaded `RoughLifeServer` build.
 
@@ -69,7 +69,7 @@ The fleet name is `RoughLife-Managed-Dev`, and it is intended to run the Unity D
 
 #### Fleet Instance Configuration
 
-![GameLift instance details](/images/5-Workshop/5.10-gamelift-build-fleet/10_04_GameLift_InstanceDetails.png)
+![GameLift instance details](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_04_GameLift_InstanceDetails.png)
 
 The image above shows the instance configuration for the fleet.
 
@@ -86,7 +86,7 @@ The team selected **On-Demand** instead of Spot to avoid Spot interruption durin
 
 #### Runtime Process Configuration
 
-![GameLift runtime configuration](/images/5-Workshop/5.10-gamelift-build-fleet/10_05_GameLift_RuntimeConfig_OneProcess.png)
+![GameLift runtime configuration](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_05_GameLift_RuntimeConfig_OneProcess.png)
 
 The image above shows the runtime configuration for the server process.
 
@@ -102,7 +102,7 @@ This configuration means that each instance runs one RoughLife server process. T
 
 #### UDP Gameplay Port Configuration
 
-![GameLift UDP port settings](/images/5-Workshop/5.10-gamelift-build-fleet/10_06_GameLift_PortSettings_UDP.png)
+![GameLift UDP port settings](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_06_GameLift_PortSettings_UDP.png)
 
 The image above shows the port configuration for the GameLift fleet.
 
@@ -118,7 +118,7 @@ UDP port 7777 is used for realtime gameplay communication between the Unity Clie
 
 #### Managed EC2 Fleet Quota Error
 
-![GameLift fleet quota error](/images/5-Workshop/5.10-gamelift-build-fleet/10_07_GameLift_FleetQuota_Error.png)
+![GameLift fleet quota error](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_07_GameLift_FleetQuota_Error.png)
 
 The image above shows the error when submitting the fleet creation form. AWS reported that the current fleet limit is 0, so the Managed EC2 Fleet could not be created.
 
@@ -128,7 +128,7 @@ This means that the fleet configuration was prepared correctly, but the current 
 
 #### Service Quotas Verification
 
-![Service quotas GameLift fleet](/images/5-Workshop/5.10-gamelift-build-fleet/10_08_ServiceQuotas_GameLift_ManagedEC2Fleets_0.png)
+![Service quotas GameLift fleet](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_08_ServiceQuotas_GameLift_ManagedEC2Fleets_0.png)
 
 The image above shows the **Service Quotas** page for Amazon GameLift Servers. The team checked the Managed EC2 fleets per region quota to verify the cause of the fleet creation error.
 
@@ -136,7 +136,7 @@ The image above shows the **Service Quotas** page for Amazon GameLift Servers. T
 
 #### Quota Increase Request
 
-![Service quota increase request](/images/5-Workshop/5.10-gamelift-build-fleet/10_09_ServiceQuota_Increase_Request.png)
+![Service quota increase request](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10_09_ServiceQuota_Increase_Request.png)
 
 The image above shows the quota increase request form for Managed EC2 fleets. This request is required for AWS to review and grant fleet creation capability to the account.
 
@@ -144,11 +144,11 @@ The image above shows the quota increase request form for Managed EC2 fleets. Th
 
 #### GameLift Anywhere Attempt
 
-![GameLift custom location](/images/5-Workshop/5.10-gamelift-build-fleet/10A_01_GameLift_CustomLocation.png)
+![GameLift custom location](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10A_01_GameLift_CustomLocation.png)
 
 The image above shows that the team created a custom location named `custom-roughlife-home-lab` in GameLift Anywhere. GameLift Anywhere can be used to register game servers running outside GameLift Managed EC2, such as local lab machines or self-managed servers.
 
-![GameLift Anywhere quota error](/images/5-Workshop/5.10-gamelift-build-fleet/10A_02_GameLift_FleetQuota_Error.png)
+![GameLift Anywhere quota error](/TT-AWS/images/5-Workshop/5.10-gamelift-build-fleet/10A_02_GameLift_FleetQuota_Error.png)
 
 However, when creating an Anywhere fleet, AWS still reported that the current fleet limit is 0. Therefore, the GameLift Anywhere approach could not be completed in the current account.
 

@@ -35,7 +35,7 @@ The main components in this step include:
 
 #### SNS Topic Creation Evidence
 
-![SNS Topic Created](/images/5-Workshop/5.13-sns-admin-alert/12_01_SNS_Topic_Created.png)
+![SNS Topic Created](/TT-AWS/images/5-Workshop/5.13-sns-admin-alert/12_01_SNS_Topic_Created.png)
 
 The image above shows that the SNS Topic was created successfully. This topic acts as the notification channel that receives alerts from CloudWatch and distributes them to the admin email.
 
@@ -43,7 +43,7 @@ The image above shows that the SNS Topic was created successfully. This topic ac
 
 #### Email Subscription Confirmation Evidence
 
-![SNS Email Subscription Confirmed](/images/5-Workshop/5.13-sns-admin-alert/12_02_SNS_Email_Subscription_Confirmed.png)
+![SNS Email Subscription Confirmed](/TT-AWS/images/5-Workshop/5.13-sns-admin-alert/12_02_SNS_Email_Subscription_Confirmed.png)
 
 The image above shows that the email subscription was confirmed. After confirmation, SNS can send alert emails to the administrator.
 
@@ -51,7 +51,7 @@ The image above shows that the email subscription was confirmed. After confirmat
 
 #### CloudWatch Alarm SNS Action Evidence
 
-![CloudWatch Alarm SNS Action](/images/5-Workshop/5.13-sns-admin-alert/12_03_CloudWatch_Alarm_SNS_Action.png)
+![CloudWatch Alarm SNS Action](/TT-AWS/images/5-Workshop/5.13-sns-admin-alert/12_03_CloudWatch_Alarm_SNS_Action.png)
 
 The image above shows that the CloudWatch Alarm action was configured to send notifications to the SNS Topic. When the alarm condition is triggered, CloudWatch sends the notification to SNS, and SNS delivers the email alert.
 
@@ -66,7 +66,7 @@ In the RoughLife system, the alarm can be used to monitor important backend issu
 
 #### Alert Email Evidence
 
-![SNS Test Email](/images/5-Workshop/5.13-sns-admin-alert/12_04_SNS_Test_Email.png)
+![SNS Test Email](/TT-AWS/images/5-Workshop/5.13-sns-admin-alert/12_04_SNS_Test_Email.png)
 
 The image above shows that the alert email was delivered successfully to the admin. This proves that the operational alerting system is working.
 

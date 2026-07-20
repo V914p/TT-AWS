@@ -13,7 +13,7 @@ Link Facebook: [AWS Study Group Facebook permalink 2191111528320474](https://www
 
 Link blog gốc AWS: [Online Multiplayer with Amazon GameLift and AWS serverless](https://aws.amazon.com/blogs/gametech/online-multiplayer-amazon-gamelift-aws-serverless/)
 
-![Kiến trúc serverless matchmaking](/images/3-BlogsTranslated/blog1.png)
+![Kiến trúc serverless matchmaking](/TT-AWS/images/3-BlogsTranslated/blog1.png)
 
 ## Tổng quan
 

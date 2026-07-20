@@ -30,31 +30,31 @@ Các bảng được tạo gồm:
 
 #### Minh chứng danh sách DynamoDB Tables
 
-![DynamoDB tables](/images/5-Workshop/5.7-Dynamodb-tables/06_01.png)
+![DynamoDB tables](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_01.png)
 
 Hình trên thể hiện ba bảng DynamoDB đã được tạo thành công gồm `RoughLifeRooms`, `RoughLifePlayerSave` và `RoughLifeMatchResult`. Các bảng đang ở trạng thái Active và sử dụng capacity mode On-demand.
 
 #### Minh chứng TTL cho bảng RoughLifeRooms
 
-![DynamoDB TTL](/images/5-Workshop/5.7-Dynamodb-tables/06_02.png)
+![DynamoDB TTL](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_02.png)
 
 Hình trên thể hiện bảng `RoughLifeRooms` đã bật Time to Live với TTL attribute là `expiresAt`. Cơ chế này giúp hệ thống tự động dọn các room/session hết hạn.
 
 #### Minh chứng item trong bảng RoughLifeRooms
 
-![DynamoDB Rooms item](/images/5-Workshop/5.7-Dynamodb-tables/06_03.png)
+![DynamoDB Rooms item](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_03.png)
 
 Hình trên thể hiện item mẫu trong bảng `RoughLifeRooms`. Item bao gồm các thông tin như `roomCode`, `createdAt`, `expiresAt`, `gameSessionId`, `hostPlayerId`, `maxPlayers`, `playerCount` và `roomName`.
 
 #### Minh chứng item trong bảng RoughLifePlayerSave
 
-![DynamoDB PlayerSave item](/images/5-Workshop/5.7-Dynamodb-tables/06_04.png)
+![DynamoDB PlayerSave item](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_04.png)
 
 Hình trên thể hiện item mẫu trong bảng `RoughLifePlayerSave`. Bảng này dùng để lưu dữ liệu người chơi như `playerId`, `displayName`, vũ khí đang trang bị, avatar đã chọn, boss đã mở khóa và danh sách vũ khí.
 
 #### Minh chứng item trong bảng RoughLifeMatchResult
 
-![DynamoDB MatchResult item](/images/5-Workshop/5.7-Dynamodb-tables/06_05.png)
+![DynamoDB MatchResult item](/TT-AWS/images/5-Workshop/5.7-Dynamodb-tables/06_05.png)
 
 Hình trên thể hiện item mẫu trong bảng `RoughLifeMatchResult`. Bảng này dùng để lưu kết quả trận đấu như `matchId`, `bossId`, `durationSeconds`, danh sách người chơi, kết quả thắng/thua, phần thưởng và `roomCode`.
 

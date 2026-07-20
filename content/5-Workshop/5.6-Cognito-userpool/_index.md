@@ -29,7 +29,7 @@ For the RoughLife online system, Cognito can be used to:
 
 #### Cognito User Pool Evidence
 
-![Cognito user pool](/images/5-Workshop/5.6-Cognito-userpool/05_Cognito_UserPool.png)
+![Cognito user pool](/TT-AWS/images/5-Workshop/5.6-Cognito-userpool/05_Cognito_UserPool.png)
 
 The image above shows that the Cognito User Pool was created successfully in the Asia Pacific Singapore region. This User Pool is the foundation for implementing player login and JWT authentication in the next development phase.
 

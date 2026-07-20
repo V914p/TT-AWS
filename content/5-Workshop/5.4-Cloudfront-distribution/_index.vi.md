@@ -31,15 +31,15 @@ CloudFront Distribution được cấu hình với S3 bucket làm origin. Phần
 
 #### Minh chứng CloudFront Distribution
 
-![CloudFront distribution](/images/5-Workshop/5.4-Cloudfront-distribution/03_CloudFront_Distribution.png)
+![CloudFront distribution](/TT-AWS/images/5-Workshop/5.4-Cloudfront-distribution/03_CloudFront_Distribution.png)
 
 Hình trên thể hiện CloudFront Distribution đã được tạo thành công với gói Free plan. Distribution cung cấp domain để client hoặc người chơi truy cập file release qua HTTPS.
 
-![CloudFront origin](/images/5-Workshop/5.4-Cloudfront-distribution/03_CloudFront_Origin.png)
+![CloudFront origin](/TT-AWS/images/5-Workshop/5.4-Cloudfront-distribution/03_CloudFront_Origin.png)
 
 Hình trên thể hiện CloudFront origin đang trỏ đến S3 release bucket của RoughLife. Origin type là S3 và được cấu hình origin access.
 
-![CloudFront check URL](/images/5-Workshop/5.4-Cloudfront-distribution/03_CheckURL.png)
+![CloudFront check URL](/TT-AWS/images/5-Workshop/5.4-Cloudfront-distribution/03_CheckURL.png)
 
 Hình trên thể hiện việc kiểm tra các file qua CloudFront domain. `version.json` và `patch_manifest.json` có thể mở trực tiếp trên trình duyệt, đồng thời file `RoughLife_Client_Window.zip` có thể tải xuống thành công.
 

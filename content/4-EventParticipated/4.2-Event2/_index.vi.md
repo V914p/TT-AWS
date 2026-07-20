@@ -63,10 +63,10 @@ Nhìn chung, sự kiện giúp em cải thiện không chỉ hiểu biết kỹ 
 
 ## Ảnh sự kiện
 
-![AWS Event Community Day 1](/images/4-EventParticipated/event2-1.png)
+![AWS Event Community Day 1](/TT-AWS/images/4-EventParticipated/event2-1.png)
 
-![AWS Event Community Day 2](/images/4-EventParticipated/event2-2.png)
+![AWS Event Community Day 2](/TT-AWS/images/4-EventParticipated/event2-2.png)
 
-![AWS Event Community Day 3](/images/4-EventParticipated/event2-3.png)
+![AWS Event Community Day 3](/TT-AWS/images/4-EventParticipated/event2-3.png)
 
-![AWS Event Community Day 4](/images/4-EventParticipated/event2-4.png)
+![AWS Event Community Day 4](/TT-AWS/images/4-EventParticipated/event2-4.png)
